@@ -1,0 +1,94 @@
+<root>
+	<thread name="Main" totalTimeMS="128.905258" startTime="1608081731299" stopTime="1608082067825" totalBlocks="604"> 
+		<block name="CCryEditDoc::BeforeSaveDocument" totalTimeMS="1.494266" startTime="1608081731359" stopTime="1608081735260" args=""> 
+		</block>
+		<block name="CCryEditDoc::DoSaveDocument" totalTimeMS="124.271538" startTime="1608081735261" stopTime="1608082059690" args=""> 
+			<block name="CCryEditDoc::SaveLevel" totalTimeMS="83.928268" startTime="1608081840505" stopTime="1608082059612" args=""> 
+				<block name="CCryEditDoc::Save" totalTimeMS="36.084938" startTime="1608081843777" stopTime="1608081937982" args=""> 
+					<block name="CMission::SyncContent" totalTimeMS="18.057983" startTime="1608081855578" stopTime="1608081902721" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.662288" startTime="1608081866937" stopTime="1608081868666" args="assets\libs\environmentpresets\hyphearia.xml"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.524391" startTime="1608081867294" stopTime="1608081868663" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.670715" startTime="1608081899918" stopTime="1608081901669" args="assets/levels/Hyphearia/Layers/Main.lyr"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.424799" startTime="1608081900558" stopTime="1608081901667" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.474595" startTime="1608081903568" stopTime="1608081904807" args="assets/levels/Hyphearia/LevelData/TimeOfDay.tmp"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.307587" startTime="1608081904002" stopTime="1608081904805" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.154368" startTime="1608081905807" stopTime="1608081906210" args="assets/levels/Hyphearia/LevelData/TimeOfDay.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.177351" startTime="1608081906215" stopTime="1608081906678" args="assets/levels/Hyphearia/LevelData/TimeOfDay.xml"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.512517" startTime="1608081912058" stopTime="1608081913396" args="assets/levels/Hyphearia/LevelData/Environment.tmp"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.359681" startTime="1608081912455" stopTime="1608081913394" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.140195" startTime="1608081914686" stopTime="1608081915052" args="assets/levels/Hyphearia/LevelData/Environment.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.148622" startTime="1608081915057" stopTime="1608081915445" args="assets/levels/Hyphearia/LevelData/Environment.xml"> 
+					</block>
+					<block name="CLog::LogPlus" totalTimeMS="1.457494" startTime="1608081919455" stopTime="1608081923260" args=""> 
+					</block>
+					<block name="CGameTokenManager::Save" totalTimeMS="3.882181" startTime="1608081923433" stopTime="1608081933568" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.576486" startTime="1608081924153" stopTime="1608081925658" args="assets/levels/Hyphearia/LevelData/GameTokens.tmp"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.407179" startTime="1608081924593" stopTime="1608081925656" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.150537" startTime="1608081928084" stopTime="1608081928477" args="assets/levels/Hyphearia/LevelData/GameTokens.tmp"> 
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.356234" startTime="1608081928483" stopTime="1608081929413" args="assets/levels/Hyphearia/LevelData/GameTokens.xml"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.173520" startTime="1608081928949" stopTime="1608081929402" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryEditDoc::SerializeShaderCache" totalTimeMS="1.655912" startTime="1608081933636" stopTime="1608081937959" args=""> 
+					</block>
+				</block>
+				<block name="CCryPak::OpenArchive" totalTimeMS="0.574570" startTime="1608081938434" stopTime="1608081939934" args="assets/levels/Hyphearia/Hyphearia.tmp"> 
+					<block name="CIOWrapper::FopenEx" totalTimeMS="0.122958" startTime="1608081938572" stopTime="1608081938893" args=""> 
+					</block>
+					<block name="CIOWrapper::FopenEx" totalTimeMS="0.386494" startTime="1608081938895" stopTime="1608081939904" args=""> 
+					</block>
+				</block>
+				<block name="CXmlArchive::SaveToPak" totalTimeMS="1.790745" startTime="1608081939943" stopTime="1608081944618" args=""> 
+				</block>
+				<block name="CTerrainManager::Save" totalTimeMS="24.880432" startTime="1608081972958" stopTime="1608082037912" args=""> 
+					<block name="CHeightmap::SerializeTerrain" totalTimeMS="0.571889" startTime="1608081987068" stopTime="1608081988561" args=""> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.182330" startTime="1608082003240" stopTime="1608082003716" args="assets/levels/Hyphearia/LevelData/Heightmap.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.157815" startTime="1608082003722" stopTime="1608082004134" args="assets/levels/Hyphearia/LevelData/Heightmap.dat"> 
+					</block>
+				</block>
+				<block name="CTerrainManager::SaveTexture" totalTimeMS="2.994278" startTime="1608082037920" stopTime="1608082045737" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.510219" startTime="1608082038706" stopTime="1608082040038" args="assets/levels/Hyphearia/LevelData/TerrainTexture.tmp"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.338230" startTime="1608082039153" stopTime="1608082040036" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.155900" startTime="1608082040837" stopTime="1608082041244" args="assets/levels/Hyphearia/LevelData/TerrainTexture.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.154751" startTime="1608082041250" stopTime="1608082041654" args="assets/levels/Hyphearia/LevelData/TerrainTexture.xml"> 
+					</block>
+				</block>
+				<block name="CVegetationMap::Save" totalTimeMS="4.919089" startTime="1608082045742" stopTime="1608082058584" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.137514" startTime="1608082053340" stopTime="1608082053699" args="assets/levels/Hyphearia/LevelData/VegetationMap.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.195354" startTime="1608082053704" stopTime="1608082054214" args="assets/levels/Hyphearia/LevelData/VegetationMap.dat"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.106104" startTime="1608082053927" stopTime="1608082054204" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="CCryEditDoc::AfterSaveDocument" totalTimeMS="3.059396" startTime="1608082059693" stopTime="1608082067680" args=""> 
+			<block name="CCryPak::FOpen" totalTimeMS="0.635475" startTime="1608082065672" stopTime="1608082067331" args="c:\users\xtc\documents\cryengine projects\user\sandbox\lastLoadPath.preset"> 
+				<block name="CIOWrapper::FopenEx" totalTimeMS="0.263153" startTime="1608082066642" stopTime="1608082067329" args=""> 
+				</block>
+			</block>
+		</block>
+	</thread>
+</root>
