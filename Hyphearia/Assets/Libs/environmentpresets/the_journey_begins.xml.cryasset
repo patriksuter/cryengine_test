@@ -1,0 +1,8 @@
+<AssetMetadata version="0" type="Xml" guid="b9491535-88a4-7888-4e01-ab824a81d794">
+ <Files>
+  <File path="the_journey_begins.xml"/>
+ </Files>
+ <Details>
+  <Detail name="rootTag">EnvironmentPreset</Detail>
+ </Details>
+</AssetMetadata>
