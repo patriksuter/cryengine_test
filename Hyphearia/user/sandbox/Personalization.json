@@ -1,9 +1,168 @@
 {
+    "CAssetPicker": {
+        "Layout": {
+            "detailsView": {
+                "columnData": {
+                    "Bones count": {
+                        "data": "Bones count",
+                        "visible": false,
+                        "visualIndex": 13,
+                        "width": 0
+                    },
+                    "Favorite": {
+                        "data": "Favorite",
+                        "visible": true,
+                        "visualIndex": 0,
+                        "width": 16
+                    },
+                    "Folder": {
+                        "data": "Folder",
+                        "visible": false,
+                        "visualIndex": 4,
+                        "width": 0
+                    },
+                    "Height": {
+                        "data": "Height",
+                        "visible": false,
+                        "visualIndex": 15,
+                        "width": 0
+                    },
+                    "Material count": {
+                        "data": "Material count",
+                        "visible": false,
+                        "visualIndex": 12,
+                        "width": 0
+                    },
+                    "Mip count": {
+                        "data": "Mip count",
+                        "visible": false,
+                        "visualIndex": 16,
+                        "width": 0
+                    },
+                    "Name": {
+                        "data": "Name",
+                        "visible": true,
+                        "visualIndex": 1,
+                        "width": 208
+                    },
+                    "Status": {
+                        "data": "Status",
+                        "visible": true,
+                        "visualIndex": 3,
+                        "width": 100
+                    },
+                    "Sub Mtl count": {
+                        "data": "Sub Mtl count",
+                        "visible": false,
+                        "visualIndex": 8,
+                        "width": 0
+                    },
+                    "Texture count": {
+                        "data": "Texture count",
+                        "visible": false,
+                        "visualIndex": 9,
+                        "width": 0
+                    },
+                    "Triangle count": {
+                        "data": "Triangle count",
+                        "visible": false,
+                        "visualIndex": 10,
+                        "width": 0
+                    },
+                    "Type": {
+                        "data": "Type",
+                        "visible": true,
+                        "visualIndex": 2,
+                        "width": 120
+                    },
+                    "Unique Id": {
+                        "data": "Unique Id",
+                        "visible": false,
+                        "visualIndex": 5,
+                        "width": 0
+                    },
+                    "Vertex count": {
+                        "data": "Vertex count",
+                        "visible": false,
+                        "visualIndex": 11,
+                        "width": 0
+                    },
+                    "Width": {
+                        "data": "Width",
+                        "visible": false,
+                        "visualIndex": 14,
+                        "width": 0
+                    },
+                    "XML Type": {
+                        "data": "XML Type",
+                        "visible": false,
+                        "visualIndex": 17,
+                        "width": 0
+                    },
+                    "_filter_string_": {
+                        "data": "_filter_string_",
+                        "visible": false,
+                        "visualIndex": 7,
+                        "width": 0
+                    },
+                    "_thumb_": {
+                        "data": "_thumb_",
+                        "visible": false,
+                        "visualIndex": 6,
+                        "width": 0
+                    }
+                },
+                "columnOrder": [
+                    "Favorite",
+                    "Name",
+                    "Type",
+                    "Status",
+                    "Folder",
+                    "Unique Id",
+                    "_thumb_",
+                    "_filter_string_",
+                    "Sub Mtl count",
+                    "Texture count",
+                    "Triangle count",
+                    "Vertex count",
+                    "Material count",
+                    "Bones count",
+                    "Width",
+                    "Height",
+                    "Mip count",
+                    "XML Type"
+                ],
+                "headerSortingOrder": {
+                    "sortOrder": 0,
+                    "sortedSection": 1
+                }
+            },
+            "filters": {
+                "expanded": false
+            },
+            "foldersView": {
+                "selected": [
+                    "Objects"
+                ]
+            },
+            "recursiveSearch": true,
+            "recursiveView": false,
+            "showFolders": true,
+            "viewMode": 1
+        }
+    },
+    "EngineFileDialog": {
+        "favorites": [
+        ],
+        "history": [
+        ]
+    },
     "FavoritesHelper": {
         "Asset Browser": null
     },
     "LevelEditor": {
         "Recent Files": [
+            "Assets/Levels/The_Journey_Begins/The_Journey_Begins.cry",
             "assets/Levels/The_Journey_Begins/The_Journey_Begins.cry"
         ]
     }

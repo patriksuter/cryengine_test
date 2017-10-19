@@ -1,94 +1,96 @@
 <root>
-	<thread name="Main" totalTimeMS="130.858032" startTime="1621507564022" stopTime="1621507905646" totalBlocks="76"> 
-		<block name="CCryEditDoc::BeforeSaveDocument" totalTimeMS="1.149907" startTime="1621507564090" stopTime="1621507567092" args=""> 
+	<thread name="Main" totalTimeMS="131.890350" startTime="1728890187988" stopTime="1728890532307" totalBlocks="2808"> 
+		<block name="CCryEditDoc::BeforeSaveDocument" totalTimeMS="0.967194" startTime="1728890188053" stopTime="1728890190578" args=""> 
 		</block>
-		<block name="CCryEditDoc::DoSaveDocument" totalTimeMS="127.783707" startTime="1621507567094" stopTime="1621507900692" args=""> 
-			<block name="CCryPak::OpenArchive" totalTimeMS="0.474978" startTime="1621507568022" stopTime="1621507569262" args="assets/Levels/The_Journey_Begins/TerrainTexture.pak"> 
-				<block name="CIOWrapper::FopenEx" totalTimeMS="0.289584" startTime="1621507568272" stopTime="1621507569028" args=""> 
+		<block name="CCryEditDoc::DoSaveDocument" totalTimeMS="128.786133" startTime="1728890190580" stopTime="1728890526795" args=""> 
+			<block name="CCryEditDoc::SaveLevel" totalTimeMS="126.601616" startTime="1728890196271" stopTime="1728890526783" args=""> 
+				<block name="CCryEditDoc::Save" totalTimeMS="29.812927" startTime="1728890199391" stopTime="1728890277222" args=""> 
+					<block name="CMission::SyncContent" totalTimeMS="15.740166" startTime="1728890208635" stopTime="1728890249727" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.705572" startTime="1728890226440" stopTime="1728890228282" args="assets\libs\environmentpresets\the_journey_begins.xml"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.532052" startTime="1728890226892" stopTime="1728890228281" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.583764" startTime="1728890247500" stopTime="1728890249024" args="Assets/Levels/The_Journey_Begins/Layers/Main.lyr"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.396837" startTime="1728890247986" stopTime="1728890249022" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.640838" startTime="1728890250408" stopTime="1728890252081" args="Assets/Levels/The_Journey_Begins/LevelData/TimeOfDay.tmp"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.457741" startTime="1728890250884" stopTime="1728890252079" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.143260" startTime="1728890252861" stopTime="1728890253235" args="Assets/Levels/The_Journey_Begins/LevelData/TimeOfDay.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.147473" startTime="1728890253241" stopTime="1728890253626" args="Assets/Levels/The_Journey_Begins/LevelData/TimeOfDay.xml"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.689101" startTime="1728890257237" stopTime="1728890259036" args="Assets/Levels/The_Journey_Begins/LevelData/Environment.tmp"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.460422" startTime="1728890257832" stopTime="1728890259034" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.147090" startTime="1728890260259" stopTime="1728890260643" args="Assets/Levels/The_Journey_Begins/LevelData/Environment.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.135216" startTime="1728890260650" stopTime="1728890261003" args="Assets/Levels/The_Journey_Begins/LevelData/Environment.xml"> 
+					</block>
+					<block name="CLog::LogPlus" totalTimeMS="1.168676" startTime="1728890264294" stopTime="1728890267345" args=""> 
+					</block>
+					<block name="CGameTokenManager::Save" totalTimeMS="2.574075" startTime="1728890267438" stopTime="1728890274158" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.632794" startTime="1728890268064" stopTime="1728890269716" args="Assets/Levels/The_Journey_Begins/LevelData/GameTokens.tmp"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.427863" startTime="1728890268597" stopTime="1728890269714" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.131768" startTime="1728890270546" stopTime="1728890270890" args="Assets/Levels/The_Journey_Begins/LevelData/GameTokens.tmp"> 
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.125639" startTime="1728890270897" stopTime="1728890271225" args="Assets/Levels/The_Journey_Begins/LevelData/GameTokens.xml"> 
+						</block>
+					</block>
+					<block name="CCryEditDoc::SerializeShaderCache" totalTimeMS="1.157568" startTime="1728890274196" stopTime="1728890277218" args=""> 
+					</block>
+				</block>
+				<block name="CCryPak::OpenArchive" totalTimeMS="0.728555" startTime="1728890277785" stopTime="1728890279687" args="Assets/Levels/The_Journey_Begins/The_Journey_Begins.tmp"> 
+					<block name="CIOWrapper::FopenEx" totalTimeMS="0.184246" startTime="1728890277942" stopTime="1728890278423" args=""> 
+					</block>
+					<block name="CIOWrapper::FopenEx" totalTimeMS="0.469999" startTime="1728890278425" stopTime="1728890279652" args=""> 
+					</block>
+				</block>
+				<block name="CXmlArchive::SaveToPak" totalTimeMS="1.370925" startTime="1728890279696" stopTime="1728890283275" args=""> 
+				</block>
+				<block name="CTerrainManager::Save" totalTimeMS="78.117447" startTime="1728890304339" stopTime="1728890508276" args=""> 
+					<block name="CHeightmap::SerializeTerrain" totalTimeMS="10.590865" startTime="1728890378758" stopTime="1728890406407" args=""> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.182713" startTime="1728890433882" stopTime="1728890434359" args="Assets/Levels/The_Journey_Begins/LevelData/Heightmap.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.129853" startTime="1728890434366" stopTime="1728890434705" args="Assets/Levels/The_Journey_Begins/LevelData/Heightmap.dat"> 
+					</block>
+					<block name="CCryPak::FReadRaw" totalTimeMS="0.104189" startTime="1728890442641" stopTime="1728890442913" args=""> 
+					</block>
+					<block name="CCryPak::FReadRaw" totalTimeMS="0.114914" startTime="1728890444800" stopTime="1728890445100" args=""> 
+					</block>
+					<block name="CCryPak::FReadRaw" totalTimeMS="0.175435" startTime="1728890445101" stopTime="1728890445559" args=""> 
+					</block>
+					<block name="CCryPak::FReadRaw" totalTimeMS="0.152453" startTime="1728890474084" stopTime="1728890474482" args=""> 
+					</block>
+				</block>
+				<block name="CTerrainManager::SaveTexture" totalTimeMS="2.543432" startTime="1728890508283" stopTime="1728890514923" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.592957" startTime="1728890508895" stopTime="1728890510443" args="Assets/Levels/The_Journey_Begins/LevelData/TerrainTexture.tmp"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.392623" startTime="1728890509416" stopTime="1728890510441" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.142877" startTime="1728890511301" stopTime="1728890511674" args="Assets/Levels/The_Journey_Begins/LevelData/TerrainTexture.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.126022" startTime="1728890511681" stopTime="1728890512010" args="Assets/Levels/The_Journey_Begins/LevelData/TerrainTexture.xml"> 
+					</block>
+				</block>
+				<block name="CVegetationMap::Save" totalTimeMS="4.162188" startTime="1728890514929" stopTime="1728890525795" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.151687" startTime="1728890521637" stopTime="1728890522033" args="Assets/Levels/The_Journey_Begins/LevelData/VegetationMap.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.144409" startTime="1728890522040" stopTime="1728890522417" args="Assets/Levels/The_Journey_Begins/LevelData/VegetationMap.dat"> 
+					</block>
 				</block>
 			</block>
-			<block name="CCryEditDoc::SaveLevel" totalTimeMS="124.289543" startTime="1621507576205" stopTime="1621507900681" args=""> 
-				<block name="CCryEditDoc::Save" totalTimeMS="31.232117" startTime="1621507580330" stopTime="1621507661866" args=""> 
-					<block name="CMission::SyncContent" totalTimeMS="16.201353" startTime="1621507590379" stopTime="1621507632675" args=""> 
-						<block name="CCryPak::FOpen" totalTimeMS="0.775287" startTime="1621507610289" stopTime="1621507612313" args="assets\libs\environmentpresets\the_journey_begins.xml"> 
-							<block name="CIOWrapper::FopenEx" totalTimeMS="0.508686" startTime="1621507610983" stopTime="1621507612311" args=""> 
-							</block>
-						</block>
-						<block name="CCryPak::FOpen" totalTimeMS="0.698295" startTime="1621507630038" stopTime="1621507631861" args="assets/Levels/The_Journey_Begins/Layers/Main.lyr"> 
-							<block name="CIOWrapper::FopenEx" totalTimeMS="0.456592" startTime="1621507630666" stopTime="1621507631858" args=""> 
-							</block>
-						</block>
-					</block>
-					<block name="CCryPak::FOpen" totalTimeMS="0.640838" startTime="1621507633472" stopTime="1621507635145" args="assets/Levels/The_Journey_Begins/LevelData/TimeOfDay.tmp"> 
-						<block name="CIOWrapper::FopenEx" totalTimeMS="0.442419" startTime="1621507633988" stopTime="1621507635143" args=""> 
-						</block>
-					</block>
-					<block name="CCryPak::FOpen" totalTimeMS="0.154751" startTime="1621507636067" stopTime="1621507636471" args="assets/Levels/The_Journey_Begins/LevelData/TimeOfDay.tmp"> 
-					</block>
-					<block name="CCryPak::FOpen" totalTimeMS="0.182713" startTime="1621507636478" stopTime="1621507636955" args="assets/Levels/The_Journey_Begins/LevelData/TimeOfDay.xml"> 
-						<block name="CIOWrapper::FopenEx" totalTimeMS="0.102274" startTime="1621507636674" stopTime="1621507636941" args=""> 
-						</block>
-					</block>
-					<block name="CCryPak::FOpen" totalTimeMS="0.581465" startTime="1621507640478" stopTime="1621507641996" args="assets/Levels/The_Journey_Begins/LevelData/Environment.tmp"> 
-						<block name="CIOWrapper::FopenEx" totalTimeMS="0.373854" startTime="1621507641018" stopTime="1621507641994" args=""> 
-						</block>
-					</block>
-					<block name="CCryPak::FOpen" totalTimeMS="0.134833" startTime="1621507642989" stopTime="1621507643341" args="assets/Levels/The_Journey_Begins/LevelData/Environment.tmp"> 
-					</block>
-					<block name="CCryPak::FOpen" totalTimeMS="0.150920" startTime="1621507643347" stopTime="1621507643741" args="assets/Levels/The_Journey_Begins/LevelData/Environment.xml"> 
-					</block>
-					<block name="CLog::LogPlus" totalTimeMS="1.316149" startTime="1621507646806" stopTime="1621507650242" args=""> 
-					</block>
-					<block name="CGameTokenManager::Save" totalTimeMS="3.059396" startTime="1621507650356" stopTime="1621507658343" args=""> 
-						<block name="CCryPak::FOpen" totalTimeMS="0.637773" startTime="1621507651097" stopTime="1621507652762" args="assets/Levels/The_Journey_Begins/LevelData/GameTokens.tmp"> 
-							<block name="CIOWrapper::FopenEx" totalTimeMS="0.414840" startTime="1621507651677" stopTime="1621507652760" args=""> 
-							</block>
-						</block>
-						<block name="CCryPak::FOpen" totalTimeMS="0.163178" startTime="1621507653697" stopTime="1621507654123" args="assets/Levels/The_Journey_Begins/LevelData/GameTokens.tmp"> 
-						</block>
-						<block name="CCryPak::FOpen" totalTimeMS="0.175819" startTime="1621507654130" stopTime="1621507654589" args="assets/Levels/The_Journey_Begins/LevelData/GameTokens.xml"> 
-						</block>
-					</block>
-					<block name="CCryEditDoc::SerializeShaderCache" totalTimeMS="1.327258" startTime="1621507658397" stopTime="1621507661862" args=""> 
-					</block>
-				</block>
-				<block name="CCryPak::OpenArchive" totalTimeMS="0.879859" startTime="1621507662582" stopTime="1621507664879" args="assets/Levels/The_Journey_Begins/The_Journey_Begins.tmp"> 
-					<block name="CIOWrapper::FopenEx" totalTimeMS="0.228679" startTime="1621507662779" stopTime="1621507663376" args=""> 
-					</block>
-					<block name="CIOWrapper::FopenEx" totalTimeMS="0.560398" startTime="1621507663379" stopTime="1621507664842" args=""> 
-					</block>
-				</block>
-				<block name="CXmlArchive::SaveToPak" totalTimeMS="2.895452" startTime="1621507664892" stopTime="1621507672451" args=""> 
-				</block>
-				<block name="CTerrainManager::Save" totalTimeMS="65.654251" startTime="1621507691511" stopTime="1621507862911" args=""> 
-					<block name="CHeightmap::SerializeTerrain" totalTimeMS="14.874479" startTime="1621507771304" stopTime="1621507810136" args=""> 
-					</block>
-				</block>
-				<block name="CTerrainManager::SaveTexture" totalTimeMS="10.416962" startTime="1621507862918" stopTime="1621507890113" args=""> 
-					<block name="CCryPak::OpenArchive" totalTimeMS="0.685271" startTime="1621507864198" stopTime="1621507865987" args="assets/Levels/The_Journey_Begins/TerrainTexture.pak"> 
-						<block name="CIOWrapper::FopenEx" totalTimeMS="0.478426" startTime="1621507864561" stopTime="1621507865810" args=""> 
-						</block>
-					</block>
-					<block name="CCryPak::OpenArchive" totalTimeMS="0.426331" startTime="1621507866118" stopTime="1621507867231" args="assets/Levels/The_Journey_Begins/TerrainTexture.pak"> 
-						<block name="CIOWrapper::FopenEx" totalTimeMS="0.270431" startTime="1621507866397" stopTime="1621507867103" args=""> 
-						</block>
-					</block>
-					<block name="CCryPak::FOpen" totalTimeMS="0.876411" startTime="1621507867414" stopTime="1621507869702" args="assets/Levels/The_Journey_Begins/LevelData/TerrainTexture.tmp"> 
-						<block name="CIOWrapper::FopenEx" totalTimeMS="0.589892" startTime="1621507868158" stopTime="1621507869698" args=""> 
-						</block>
-					</block>
-				</block>
-				<block name="CVegetationMap::Save" totalTimeMS="3.724749" startTime="1621507890121" stopTime="1621507899845" args=""> 
-					<block name="CCryPak::FOpen" totalTimeMS="0.242469" startTime="1621507896110" stopTime="1621507896743" args="assets/Levels/The_Journey_Begins/LevelData/VegetationMap.tmp"> 
-					</block>
-					<block name="CCryPak::FOpen" totalTimeMS="0.148622" startTime="1621507896749" stopTime="1621507897137" args="assets/Levels/The_Journey_Begins/LevelData/VegetationMap.dat"> 
-					</block>
-				</block>
-			</block>
 		</block>
-		<block name="CCryEditDoc::AfterSaveDocument" totalTimeMS="1.841690" startTime="1621507900694" stopTime="1621507905502" args=""> 
-			<block name="CCryPak::FOpen" totalTimeMS="0.635475" startTime="1621507903400" stopTime="1621507905059" args="c:\users\xtc\documents\github\hyphearia\user\sandbox\lastLoadPath.preset"> 
-				<block name="CIOWrapper::FopenEx" totalTimeMS="0.289200" startTime="1621507904302" stopTime="1621507905057" args=""> 
+		<block name="CCryEditDoc::AfterSaveDocument" totalTimeMS="2.055813" startTime="1728890526798" stopTime="1728890532165" args=""> 
+			<block name="CCryPak::FOpen" totalTimeMS="0.705956" startTime="1728890529961" stopTime="1728890531804" args="c:\users\xtc\documents\github\cryengine_test\hyphearia\user\sandbox\lastLoadPath.preset"> 
+				<block name="CIOWrapper::FopenEx" totalTimeMS="0.273112" startTime="1728890531089" stopTime="1728890531802" args=""> 
 				</block>
 			</block>
 		</block>

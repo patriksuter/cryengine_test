@@ -1,6 +1,6 @@
-<download name="The_Journey_Begins" type="Map">
+<download name="the_journey_begins" type="Map">
  <index src="filelist.xml" dest="filelist.xml"/>
  <files>
-  <file src="level.pak" dest="level.pak" size="3068396" md5="38156d29f93d2a9da26ef0c239c7dcc5"/>
+  <file src="level.pak" dest="level.pak" size="4312008" md5="fcd4770d77a875cf7be89d1a05473c68"/>
  </files>
 </download>

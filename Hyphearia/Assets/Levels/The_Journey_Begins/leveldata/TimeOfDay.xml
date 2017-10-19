@@ -1,4 +1,4 @@
-<TimeOfDay Time="12" TimeStart="12" TimeEnd="12" TimeAnimSpeed="0">
+<TimeOfDay Time="11.764667" TimeStart="12" TimeEnd="12" TimeAnimSpeed="0">
  <Presets>
   <Preset Name="libs/environmentpresets/The_Journey_Begins.xml" Default="1"/>
  </Presets>

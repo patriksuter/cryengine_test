@@ -1,28 +1,26 @@
 <root>
-	<thread name="Main" totalTimeMS="271.083099" startTime="1622057089609" stopTime="1622057797311" totalBlocks="27"> 
-		<block name="CEditorMainFrame::BeforeClose" totalTimeMS="271.053223" startTime="1622057089677" stopTime="1622057797301" args=""> 
-			<block name="CEditorMainFrame::SaveConfig" totalTimeMS="4.879252" startTime="1622057089679" stopTime="1622057102417" args=""> 
+	<thread name="Main" totalTimeMS="221.724808" startTime="1728929597267" stopTime="1728930176112" totalBlocks="28"> 
+		<block name="CEditorMainFrame::BeforeClose" totalTimeMS="221.694931" startTime="1728929597337" stopTime="1728930176104" args=""> 
+			<block name="CEditorMainFrame::SaveConfig" totalTimeMS="5.861384" startTime="1728929597340" stopTime="1728929612642" args=""> 
 			</block>
-			<block name="CTabPaneManager::CloseAllPanes" totalTimeMS="181.605621" startTime="1622057103370" stopTime="1622057577478" args=""> 
-				<block name="CSystem::Update" totalTimeMS="0.338614" startTime="1622057487678" stopTime="1622057488562" args=""> 
+			<block name="CTabPaneManager::CloseAllPanes" totalTimeMS="178.668045" startTime="1728929612733" stopTime="1728930079172" args=""> 
+				<block name="CSystem::Update" totalTimeMS="0.335932" startTime="1728930007280" stopTime="1728930008157" args=""> 
 				</block>
 			</block>
-			<block name="CEditorImpl::CloseDocument" totalTimeMS="84.199471" startTime="1622057577484" stopTime="1622057797299" args=""> 
-				<block name="CCryEditDoc::DeleteContents" totalTimeMS="83.749763" startTime="1622057578201" stopTime="1622057796842" args=""> 
-					<block name="Notify Clear Level Contents" totalTimeMS="0.137514" startTime="1622057578201" stopTime="1622057578560" args=""> 
+			<block name="CEditorImpl::CloseDocument" totalTimeMS="37.126060" startTime="1728930079178" stopTime="1728930176101" args=""> 
+				<block name="CCryEditDoc::DeleteContents" totalTimeMS="36.987396" startTime="1728930079346" stopTime="1728930175907" args=""> 
+					<block name="CVegetationMap::ClearObjects" totalTimeMS="4.971566" startTime="1728930106292" stopTime="1728930119271" args=""> 
 					</block>
-					<block name="CVegetationMap::ClearObjects" totalTimeMS="3.846174" startTime="1622057738808" stopTime="1622057748849" args=""> 
+					<block name="CTerrainManager::ClearLayers" totalTimeMS="0.120660" startTime="1728930119278" stopTime="1728930119593" args=""> 
 					</block>
-					<block name="CTerrainManager::ClearLayers" totalTimeMS="0.120660" startTime="1622057748857" stopTime="1622057749172" args=""> 
+					<block name="CViewManager::ResetViews" totalTimeMS="1.894167" startTime="1728930119595" stopTime="1728930124540" args=""> 
 					</block>
-					<block name="CViewManager::ResetViews" totalTimeMS="2.136636" startTime="1622057749175" stopTime="1622057754753" args=""> 
-					</block>
-					<block name="CGameEngine::ResetResources" totalTimeMS="15.955055" startTime="1622057755042" stopTime="1622057796695" args=""> 
-						<block name="CEntitySystem::Reset" totalTimeMS="0.648882" startTime="1622057755045" stopTime="1622057756739" args=""> 
+					<block name="CGameEngine::ResetResources" totalTimeMS="19.036285" startTime="1728930124680" stopTime="1728930174377" args=""> 
+						<block name="CEntitySystem::Reset" totalTimeMS="0.748857" startTime="1728930124683" stopTime="1728930126638" args=""> 
 						</block>
-						<block name="C3DEngine::UnloadLevel" totalTimeMS="12.592285" startTime="1622057756742" stopTime="1622057789616" args=""> 
+						<block name="C3DEngine::UnloadLevel" totalTimeMS="13.271428" startTime="1728930126641" stopTime="1728930161288" args=""> 
 						</block>
-						<block name="CCryAction::EndGameContext" totalTimeMS="1.225750" startTime="1622057793494" stopTime="1622057796694" args=""> 
+						<block name="CCryAction::EndGameContext" totalTimeMS="2.661793" startTime="1728930167427" stopTime="1728930174376" args=""> 
 						</block>
 					</block>
 				</block>

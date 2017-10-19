@@ -1,0 +1,8 @@
+<AssetMetadata version="0" type="Xml" guid="b59f055f-67da-740e-3884-3f017bc4dcb5">
+ <Files>
+  <File path="Factions.xml"/>
+ </Files>
+ <Details>
+  <Detail name="rootTag">Factions</Detail>
+ </Details>
+</AssetMetadata>
