@@ -1,6 +1,0 @@
-<download name="Hyphearia" type="Map">
- <index src="filelist.xml" dest="filelist.xml"/>
- <files>
-  <file src="level.pak" dest="level.pak" size="667693" md5="581a98c252f34d74bdb18a0cb8daf350"/>
- </files>
-</download>

@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="6e09a380-b424-be4d-8f4b-7aa9bafdd469">
- <Files>
-  <File path="hyphearia.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">EnvironmentPreset</Detail>
- </Details>
-</AssetMetadata>

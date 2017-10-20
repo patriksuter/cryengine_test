@@ -1,8 +1,0 @@
-<AssetMetadata version="0" type="Xml" guid="53e411b0-fdd4-2d09-1eda-b23ad85fceb4">
- <Files>
-  <File path="FirstPersonControllerDefinition.xml"/>
- </Files>
- <Details>
-  <Detail name="rootTag">ControllerDef</Detail>
- </Details>
-</AssetMetadata>
