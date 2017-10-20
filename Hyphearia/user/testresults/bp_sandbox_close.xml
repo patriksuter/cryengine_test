@@ -1,0 +1,32 @@
+<root>
+	<thread name="Main" totalTimeMS="271.083099" startTime="1622057089609" stopTime="1622057797311" totalBlocks="27"> 
+		<block name="CEditorMainFrame::BeforeClose" totalTimeMS="271.053223" startTime="1622057089677" stopTime="1622057797301" args=""> 
+			<block name="CEditorMainFrame::SaveConfig" totalTimeMS="4.879252" startTime="1622057089679" stopTime="1622057102417" args=""> 
+			</block>
+			<block name="CTabPaneManager::CloseAllPanes" totalTimeMS="181.605621" startTime="1622057103370" stopTime="1622057577478" args=""> 
+				<block name="CSystem::Update" totalTimeMS="0.338614" startTime="1622057487678" stopTime="1622057488562" args=""> 
+				</block>
+			</block>
+			<block name="CEditorImpl::CloseDocument" totalTimeMS="84.199471" startTime="1622057577484" stopTime="1622057797299" args=""> 
+				<block name="CCryEditDoc::DeleteContents" totalTimeMS="83.749763" startTime="1622057578201" stopTime="1622057796842" args=""> 
+					<block name="Notify Clear Level Contents" totalTimeMS="0.137514" startTime="1622057578201" stopTime="1622057578560" args=""> 
+					</block>
+					<block name="CVegetationMap::ClearObjects" totalTimeMS="3.846174" startTime="1622057738808" stopTime="1622057748849" args=""> 
+					</block>
+					<block name="CTerrainManager::ClearLayers" totalTimeMS="0.120660" startTime="1622057748857" stopTime="1622057749172" args=""> 
+					</block>
+					<block name="CViewManager::ResetViews" totalTimeMS="2.136636" startTime="1622057749175" stopTime="1622057754753" args=""> 
+					</block>
+					<block name="CGameEngine::ResetResources" totalTimeMS="15.955055" startTime="1622057755042" stopTime="1622057796695" args=""> 
+						<block name="CEntitySystem::Reset" totalTimeMS="0.648882" startTime="1622057755045" stopTime="1622057756739" args=""> 
+						</block>
+						<block name="C3DEngine::UnloadLevel" totalTimeMS="12.592285" startTime="1622057756742" stopTime="1622057789616" args=""> 
+						</block>
+						<block name="CCryAction::EndGameContext" totalTimeMS="1.225750" startTime="1622057793494" stopTime="1622057796694" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+	</thread>
+</root>
