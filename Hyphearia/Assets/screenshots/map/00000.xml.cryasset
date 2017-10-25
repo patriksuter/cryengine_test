@@ -1,0 +1,8 @@
+<AssetMetadata version="0" type="Xml" guid="2c122436-e9a1-39be-b6af-8e4fddb232fd">
+ <Files>
+  <File path="00000.xml"/>
+ </Files>
+ <Details>
+  <Detail name="rootTag">MiniMap</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="9a1fa876-7ef7-8663-4717-bd2237151f41">
+ <Files>
+  <File path="terrainsand.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">0</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path>HypAsset/Textures/sand_tif.dds</Path>
+ </Dependencies>
+</AssetMetadata>

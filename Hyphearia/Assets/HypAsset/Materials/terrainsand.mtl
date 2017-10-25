@@ -1,0 +1,6 @@
+<Material MtlFlags="526336" Shader="Terrain.Layer" GenMask="200000000" StringGenMask="%TEMP_TERRAIN" SurfaceType="mat_default" MatTemplate="" Diffuse="0.50288647,0.50288647,0.19461785" Specular="0.10224174,0.095307469,0.0069954107" Emittance="0.68668544,0.65140575,0.24228115,0" Opacity="1" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="HypAsset/Textures/sand_tif.dds"/>
+ </Textures>
+ <PublicParams BlendFalloff="0.1" DetailTextureStrength="0.59600002" DetailTextureHighPassRange="15" BlendFactor="0" NormalMapBumpiness="0.99299997"/>
+</Material>

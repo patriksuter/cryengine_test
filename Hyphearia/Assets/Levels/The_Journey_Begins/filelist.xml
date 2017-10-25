@@ -1,0 +1,8 @@
+<download name="the_journey_begins" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="417261" md5="f37c4151056a8e47355e099035715c73"/>
+  <file src="the_journey_begins.dds" dest="the_journey_begins.dds" size="174896" md5="af835a881d3a119f7184762701363f05"/>
+  <file src="the_journey_begins.xml" dest="the_journey_begins.xml" size="168" md5="756904d6bab734373edab69a3f434ac1"/>
+ </files>
+</download>

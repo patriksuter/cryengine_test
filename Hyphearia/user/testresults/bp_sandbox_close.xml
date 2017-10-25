@@ -1,0 +1,1456 @@
+<root>
+	<thread name="Main" totalTimeMS="505.642487" startTime="754045259534" stopTime="754046579587" totalBlocks="726"> 
+		<block name="CEditorMainFrame::BeforeClose" totalTimeMS="505.609131" startTime="754045259611" stopTime="754046579577" args=""> 
+			<block name="CEditorMainFrame::SaveConfig" totalTimeMS="5.110998" startTime="754045259614" stopTime="754045272957" args=""> 
+			</block>
+			<block name="CEditorMainFrame::BeforeClose() Save Changes?" totalTimeMS="0.009959" startTime="754045272990" stopTime="754045273016" args=""> 
+			</block>
+			<block name="CTabPaneManager::CloseAllPanes" totalTimeMS="476.288452" startTime="754045273063" stopTime="754046516483" args=""> 
+				<block name="CSystem::Update" totalTimeMS="0.607896" startTime="754046380709" stopTime="754046382296" args=""> 
+					<block name="CSystem::SleepIfInactive" totalTimeMS="0.003064" startTime="754046380734" stopTime="754046380742" args=""> 
+					</block>
+				</block>
+				<block name="CViewManager::IdleUpdate" totalTimeMS="0.001915" startTime="754046382464" stopTime="754046382469" args=""> 
+				</block>
+			</block>
+			<block name="CEditorImpl::CloseDocument" totalTimeMS="24.164909" startTime="754046516489" stopTime="754046579575" args=""> 
+				<block name="CCryEditDoc::DeleteContents" totalTimeMS="23.955383" startTime="754046516892" stopTime="754046579431" args=""> 
+					<block name="Notify Clear Level Contents" totalTimeMS="0.168924" startTime="754046516893" stopTime="754046517334" args=""> 
+						<block name="CGameEngine::OnEditorNotifyEvent() OnClearLevelContents" totalTimeMS="0.000000" startTime="754046516894" stopTime="754046516894" args=""> 
+						</block>
+					</block>
+					<block name="CVegetationMap::ClearObjects" totalTimeMS="3.869542" startTime="754046520284" stopTime="754046530386" args=""> 
+					</block>
+					<block name="CTerrainManager::ClearLayers" totalTimeMS="2.130125" startTime="754046530393" stopTime="754046535954" args=""> 
+					</block>
+					<block name="CViewManager::ResetViews" totalTimeMS="0.000383" startTime="754046535958" stopTime="754046535959" args=""> 
+					</block>
+					<block name="CObjectManager::DeleteAllObjects" totalTimeMS="1.789596" startTime="754046535963" stopTime="754046540635" args=""> 
+						<block name="CBrushObject::Done" totalTimeMS="0.040986" startTime="754046536032" stopTime="754046536139" args="half_pattern_b-4"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.033708" startTime="754046536038" stopTime="754046536126" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.030644" startTime="754046536043" stopTime="754046536123" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.004214" startTime="754046536128" stopTime="754046536139" args="half_pattern_b-4"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536133" stopTime="754046536133" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000383" startTime="754046536134" stopTime="754046536135" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.022600" startTime="754046536140" stopTime="754046536199" args="beach_rock_med_e_con-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.020685" startTime="754046536141" stopTime="754046536195" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.005363" startTime="754046536150" stopTime="754046536164" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001149" startTime="754046536196" stopTime="754046536199" args="beach_rock_med_e_con-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536197" stopTime="754046536197" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536198" stopTime="754046536198" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006129" startTime="754046536199" stopTime="754046536215" args="beach_rock_med_d_con-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004980" startTime="754046536200" stopTime="754046536213" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.004597" startTime="754046536200" stopTime="754046536212" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536213" stopTime="754046536215" args="beach_rock_med_d_con-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536214" stopTime="754046536214" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536214" stopTime="754046536214" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.012258" startTime="754046536215" stopTime="754046536247" args="beach_rock_big_a_con-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.010725" startTime="754046536216" stopTime="754046536244" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.005746" startTime="754046536219" stopTime="754046536234" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536245" stopTime="754046536247" args="beach_rock_big_a_con-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536246" stopTime="754046536246" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536246" stopTime="754046536246" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.008044" startTime="754046536247" stopTime="754046536268" args="street_rock_02-3"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.006129" startTime="754046536248" stopTime="754046536264" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.004980" startTime="754046536249" stopTime="754046536262" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001532" startTime="754046536264" stopTime="754046536268" args="street_rock_02-3"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536265" stopTime="754046536265" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000383" startTime="754046536265" stopTime="754046536266" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005746" startTime="754046536269" stopTime="754046536284" args="rock_particle_high-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003830" startTime="754046536272" stopTime="754046536282" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536273" stopTime="754046536281" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536282" stopTime="754046536284" args="rock_particle_high-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536283" stopTime="754046536283" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536283" stopTime="754046536283" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.009193" startTime="754046536284" stopTime="754046536308" args="granite_rock_group_small_b-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.007661" startTime="754046536285" stopTime="754046536305" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536286" stopTime="754046536293" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001149" startTime="754046536305" stopTime="754046536308" args="granite_rock_group_small_b-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536306" stopTime="754046536306" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536307" stopTime="754046536307" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006895" startTime="754046536308" stopTime="754046536326" args="fishing_house_shelter-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004597" startTime="754046536312" stopTime="754046536324" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003830" startTime="754046536313" stopTime="754046536323" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536324" stopTime="754046536326" args="fishing_house_shelter-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536325" stopTime="754046536325" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536326" stopTime="754046536326" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004597" startTime="754046536327" stopTime="754046536339" args="barrel-3"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536328" stopTime="754046536337" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536328" stopTime="754046536336" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000383" startTime="754046536338" stopTime="754046536339" args="barrel-3"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000383" startTime="754046536338" stopTime="754046536339" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536339" stopTime="754046536339" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005746" startTime="754046536340" stopTime="754046536355" args="dry_pattern_c-3"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003830" startTime="754046536343" stopTime="754046536353" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003447" startTime="754046536343" stopTime="754046536352" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536353" stopTime="754046536355" args="dry_pattern_c-3"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536354" stopTime="754046536354" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536355" stopTime="754046536355" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006129" startTime="754046536356" stopTime="754046536372" args="street_rock_02-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536357" stopTime="754046536366" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536357" stopTime="754046536365" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.002298" startTime="754046536366" stopTime="754046536372" args="street_rock_02-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536367" stopTime="754046536367" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.001149" startTime="754046536367" stopTime="754046536370" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.012258" startTime="754046536373" stopTime="754046536405" args="beach_rock_med_d_con-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.011108" startTime="754046536373" stopTime="754046536402" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003447" startTime="754046536374" stopTime="754046536383" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001149" startTime="754046536402" stopTime="754046536405" args="beach_rock_med_d_con-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536404" stopTime="754046536404" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536404" stopTime="754046536404" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006129" startTime="754046536405" stopTime="754046536421" args="granite_rock_group_small_a-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536406" stopTime="754046536415" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536407" stopTime="754046536414" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046536415" stopTime="754046536420" args="granite_rock_group_small_a-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536416" stopTime="754046536416" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.001149" startTime="754046536416" stopTime="754046536419" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004597" startTime="754046536421" stopTime="754046536433" args="barrel-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046536422" stopTime="754046536430" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536422" stopTime="754046536430" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536431" stopTime="754046536433" args="barrel-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536432" stopTime="754046536432" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536432" stopTime="754046536432" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005746" startTime="754046536433" stopTime="754046536448" args="street_rock_02-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046536434" stopTime="754046536442" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536434" stopTime="754046536442" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046536442" stopTime="754046536447" args="street_rock_02-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536443" stopTime="754046536443" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000766" startTime="754046536444" stopTime="754046536446" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004214" startTime="754046536448" stopTime="754046536459" args="dry_pattern_b-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046536449" stopTime="754046536457" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536449" stopTime="754046536456" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536457" stopTime="754046536459" args="dry_pattern_b-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536458" stopTime="754046536458" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000383" startTime="754046536458" stopTime="754046536459" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536459" stopTime="754046536472" args="half_pattern_b-7"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046536460" stopTime="754046536467" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046536461" stopTime="754046536467" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046536467" stopTime="754046536472" args="half_pattern_b-7"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.001149" startTime="754046536468" stopTime="754046536471" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536471" stopTime="754046536471" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.003830" startTime="754046536472" stopTime="754046536482" args="half_pattern_b-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046536473" stopTime="754046536480" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.001915" startTime="754046536474" stopTime="754046536479" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536480" stopTime="754046536482" args="half_pattern_b-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536481" stopTime="754046536481" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536481" stopTime="754046536481" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005363" startTime="754046536482" stopTime="754046536496" args="dry_pattern_a-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046536483" stopTime="754046536491" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046536483" stopTime="754046536489" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046536491" stopTime="754046536496" args="dry_pattern_a-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.001149" startTime="754046536492" stopTime="754046536495" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536495" stopTime="754046536495" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006129" startTime="754046536496" stopTime="754046536512" args="beach_rock_med_a_con-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004980" startTime="754046536497" stopTime="754046536510" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.004597" startTime="754046536497" stopTime="754046536509" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536510" stopTime="754046536512" args="beach_rock_med_a_con-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536511" stopTime="754046536511" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536511" stopTime="754046536511" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536512" stopTime="754046536525" args="dry_pattern_c-10"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046536513" stopTime="754046536520" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046536513" stopTime="754046536519" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046536520" stopTime="754046536525" args="dry_pattern_c-10"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.001149" startTime="754046536521" stopTime="754046536524" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536524" stopTime="754046536524" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536525" stopTime="754046536538" args="woodpath_pillars_4m-3"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003830" startTime="754046536526" stopTime="754046536536" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003447" startTime="754046536527" stopTime="754046536536" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000383" startTime="754046536537" stopTime="754046536538" args="woodpath_pillars_4m-3"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536538" stopTime="754046536538" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536538" stopTime="754046536538" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005746" startTime="754046536539" stopTime="754046536554" args="woodpath_pillars_4m-13"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536540" stopTime="754046536549" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536540" stopTime="754046536548" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046536549" stopTime="754046536554" args="woodpath_pillars_4m-13"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536553" stopTime="754046536553" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536553" stopTime="754046536553" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536554" stopTime="754046536567" args="woodpath_pillars_4m-14"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536555" stopTime="754046536564" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536556" stopTime="754046536564" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000383" startTime="754046536565" stopTime="754046536566" args="woodpath_pillars_4m-14"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536566" stopTime="754046536566" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536566" stopTime="754046536566" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536567" stopTime="754046536580" args="half_pattern_b-3"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046536568" stopTime="754046536575" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536568" stopTime="754046536575" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046536575" stopTime="754046536580" args="half_pattern_b-3"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536579" stopTime="754046536579" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536579" stopTime="754046536579" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.009193" startTime="754046536580" stopTime="754046536604" args="fishing_door_c-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.007661" startTime="754046536581" stopTime="754046536601" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536582" stopTime="754046536589" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536602" stopTime="754046536604" args="fishing_door_c-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536603" stopTime="754046536603" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000383" startTime="754046536603" stopTime="754046536604" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.008044" startTime="754046536605" stopTime="754046536626" args="woodpath_pillars_4m-15"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536606" stopTime="754046536615" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536607" stopTime="754046536614" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.004214" startTime="754046536615" stopTime="754046536626" args="woodpath_pillars_4m-15"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000383" startTime="754046536624" stopTime="754046536625" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536625" stopTime="754046536625" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.007661" startTime="754046536627" stopTime="754046536647" args="street_rock_02-4"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.005746" startTime="754046536628" stopTime="754046536643" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.005363" startTime="754046536629" stopTime="754046536643" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001149" startTime="754046536644" stopTime="754046536647" args="street_rock_02-4"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536645" stopTime="754046536645" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536645" stopTime="754046536645" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005746" startTime="754046536647" stopTime="754046536662" args="barrel-4"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004597" startTime="754046536648" stopTime="754046536660" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.004214" startTime="754046536649" stopTime="754046536660" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536660" stopTime="754046536662" args="barrel-4"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536661" stopTime="754046536661" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536662" stopTime="754046536662" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536663" stopTime="754046536676" args="street_rock_01-5"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536664" stopTime="754046536673" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536664" stopTime="754046536672" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536673" stopTime="754046536675" args="street_rock_01-5"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536674" stopTime="754046536674" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536674" stopTime="754046536674" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005363" startTime="754046536676" stopTime="754046536690" args="woodpath_pillars_4m-16"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004214" startTime="754046536677" stopTime="754046536688" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003830" startTime="754046536677" stopTime="754046536687" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536688" stopTime="754046536690" args="woodpath_pillars_4m-16"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536689" stopTime="754046536689" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000383" startTime="754046536689" stopTime="754046536690" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536690" stopTime="754046536703" args="street_rock_02-6"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046536692" stopTime="754046536700" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536692" stopTime="754046536700" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536700" stopTime="754046536702" args="street_rock_02-6"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536701" stopTime="754046536701" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536702" stopTime="754046536702" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006129" startTime="754046536703" stopTime="754046536719" args="street_rock_02-9"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004214" startTime="754046536704" stopTime="754046536715" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536707" stopTime="754046536715" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001149" startTime="754046536716" stopTime="754046536719" args="street_rock_02-9"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536717" stopTime="754046536717" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536717" stopTime="754046536717" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004214" startTime="754046536719" stopTime="754046536730" args="woodpath_pillars_4m-17"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046536720" stopTime="754046536728" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536721" stopTime="754046536728" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536728" stopTime="754046536730" args="woodpath_pillars_4m-17"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536729" stopTime="754046536729" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536730" stopTime="754046536730" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005363" startTime="754046536731" stopTime="754046536745" args="dry_pattern_c-4"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004597" startTime="754046536731" stopTime="754046536743" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536735" stopTime="754046536743" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536743" stopTime="754046536745" args="dry_pattern_c-4"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536744" stopTime="754046536744" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536745" stopTime="754046536745" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536746" stopTime="754046536759" args="street_rock_01-6"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536747" stopTime="754046536756" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536747" stopTime="754046536755" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001149" startTime="754046536756" stopTime="754046536759" args="street_rock_01-6"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536757" stopTime="754046536757" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536757" stopTime="754046536757" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005746" startTime="754046536759" stopTime="754046536774" args="street_rock_01-3"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004214" startTime="754046536760" stopTime="754046536771" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536763" stopTime="754046536771" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536772" stopTime="754046536774" args="street_rock_01-3"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536773" stopTime="754046536773" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536773" stopTime="754046536773" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004597" startTime="754046536774" stopTime="754046536786" args="street_rock_01-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536775" stopTime="754046536784" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536776" stopTime="754046536783" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536784" stopTime="754046536786" args="street_rock_01-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536785" stopTime="754046536785" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536785" stopTime="754046536785" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005746" startTime="754046536786" stopTime="754046536801" args="woodpath_pillars_4m-18"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536790" stopTime="754046536799" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536791" stopTime="754046536798" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536799" stopTime="754046536801" args="woodpath_pillars_4m-18"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536800" stopTime="754046536800" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536800" stopTime="754046536800" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.009193" startTime="754046536802" stopTime="754046536826" args="fishing_house_shelter-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.008044" startTime="754046536802" stopTime="754046536823" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536803" stopTime="754046536810" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536823" stopTime="754046536825" args="fishing_house_shelter-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536824" stopTime="754046536824" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536825" stopTime="754046536825" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006129" startTime="754046536826" stopTime="754046536842" args="street_rock_02-10"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003830" startTime="754046536830" stopTime="754046536840" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003447" startTime="754046536830" stopTime="754046536839" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536840" stopTime="754046536842" args="street_rock_02-10"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536841" stopTime="754046536841" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536841" stopTime="754046536841" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004214" startTime="754046536842" stopTime="754046536853" args="dry_pattern_c-11"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046536844" stopTime="754046536851" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536844" stopTime="754046536851" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536851" stopTime="754046536853" args="dry_pattern_c-11"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536852" stopTime="754046536852" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536853" stopTime="754046536853" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536854" stopTime="754046536867" args="woodpath_pillars_4m-19"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046536858" stopTime="754046536865" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046536858" stopTime="754046536864" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536865" stopTime="754046536867" args="woodpath_pillars_4m-19"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536866" stopTime="754046536866" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536866" stopTime="754046536866" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536867" stopTime="754046536880" args="dry_pattern_c-9"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002298" startTime="754046536869" stopTime="754046536875" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046536869" stopTime="754046536875" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046536875" stopTime="754046536880" args="dry_pattern_c-9"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536876" stopTime="754046536876" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.001149" startTime="754046536876" stopTime="754046536879" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536880" stopTime="754046536893" args="street_rock_02-8"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046536881" stopTime="754046536889" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536882" stopTime="754046536889" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001532" startTime="754046536889" stopTime="754046536893" args="street_rock_02-8"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536890" stopTime="754046536890" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536891" stopTime="754046536891" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536893" stopTime="754046536906" args="dry_pattern_b-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046536894" stopTime="754046536901" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536894" stopTime="754046536901" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046536901" stopTime="754046536906" args="dry_pattern_b-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536902" stopTime="754046536902" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.001149" startTime="754046536902" stopTime="754046536905" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004597" startTime="754046536906" stopTime="754046536918" args="barrel-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536907" stopTime="754046536916" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536908" stopTime="754046536916" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536916" stopTime="754046536918" args="barrel-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536917" stopTime="754046536917" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000383" startTime="754046536917" stopTime="754046536918" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004597" startTime="754046536919" stopTime="754046536931" args="woodpath_pillars_4m-20"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002298" startTime="754046536920" stopTime="754046536926" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046536920" stopTime="754046536926" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001532" startTime="754046536927" stopTime="754046536931" args="woodpath_pillars_4m-20"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536928" stopTime="754046536928" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.001149" startTime="754046536928" stopTime="754046536931" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004597" startTime="754046536932" stopTime="754046536944" args="beach_rock_med_c_con-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046536932" stopTime="754046536941" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046536933" stopTime="754046536941" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536942" stopTime="754046536944" args="beach_rock_med_c_con-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536943" stopTime="754046536943" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536943" stopTime="754046536943" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046536944" stopTime="754046536957" args="dry_pattern_b-5"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046536945" stopTime="754046536952" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536945" stopTime="754046536952" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046536952" stopTime="754046536957" args="dry_pattern_b-5"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.001149" startTime="754046536953" stopTime="754046536956" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000383" startTime="754046536956" stopTime="754046536957" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004214" startTime="754046536957" stopTime="754046536968" args="woodpath_pillars_4m-21"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046536958" stopTime="754046536966" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536959" stopTime="754046536966" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536966" stopTime="754046536968" args="woodpath_pillars_4m-21"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536967" stopTime="754046536967" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536968" stopTime="754046536968" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004214" startTime="754046536969" stopTime="754046536980" args="dry_pattern_c-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002298" startTime="754046536969" stopTime="754046536975" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.001915" startTime="754046536970" stopTime="754046536975" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001532" startTime="754046536976" stopTime="754046536980" args="dry_pattern_c-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000766" startTime="754046536977" stopTime="754046536979" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046536980" stopTime="754046536980" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.007278" startTime="754046536981" stopTime="754046537000" args="beach_rock_med_b_con-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.006512" startTime="754046536981" stopTime="754046536998" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046536982" stopTime="754046536989" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046536998" stopTime="754046537000" args="beach_rock_med_b_con-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046536999" stopTime="754046536999" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000383" startTime="754046536999" stopTime="754046537000" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005746" startTime="754046537001" stopTime="754046537016" args="street_rock_02-5"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046537002" stopTime="754046537011" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046537002" stopTime="754046537010" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046537011" stopTime="754046537016" args="street_rock_02-5"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537015" stopTime="754046537015" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537015" stopTime="754046537015" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.003830" startTime="754046537017" stopTime="754046537027" args="dry_pattern_a-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046537018" stopTime="754046537025" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537018" stopTime="754046537025" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537025" stopTime="754046537027" args="dry_pattern_a-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537026" stopTime="754046537026" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537027" stopTime="754046537027" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.007661" startTime="754046537028" stopTime="754046537048" args="landslide_rock_small_a-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.005363" startTime="754046537029" stopTime="754046537043" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537029" stopTime="754046537036" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046537043" stopTime="754046537048" args="landslide_rock_small_a-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537047" stopTime="754046537047" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537048" stopTime="754046537048" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004597" startTime="754046537049" stopTime="754046537061" args="woodpath_pillars_4m-22"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046537050" stopTime="754046537059" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046537051" stopTime="754046537059" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537059" stopTime="754046537061" args="woodpath_pillars_4m-22"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537060" stopTime="754046537060" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537061" stopTime="754046537061" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005746" startTime="754046537062" stopTime="754046537077" args="street_rock_02-7"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046537063" stopTime="754046537070" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537063" stopTime="754046537070" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.002298" startTime="754046537071" stopTime="754046537077" args="street_rock_02-7"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537074" stopTime="754046537074" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537075" stopTime="754046537075" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.003447" startTime="754046537078" stopTime="754046537087" args="dry_pattern_c-8"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002298" startTime="754046537079" stopTime="754046537085" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046537079" stopTime="754046537085" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000383" startTime="754046537086" stopTime="754046537087" args="dry_pattern_c-8"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000383" startTime="754046537086" stopTime="754046537087" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537087" stopTime="754046537087" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046537088" stopTime="754046537101" args="dry_pattern_c-12"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003830" startTime="754046537089" stopTime="754046537099" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003447" startTime="754046537089" stopTime="754046537098" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537099" stopTime="754046537101" args="dry_pattern_c-12"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537100" stopTime="754046537100" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537101" stopTime="754046537101" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.009959" startTime="754046537102" stopTime="754046537128" args="street_rock_02-11"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.008044" startTime="754046537103" stopTime="754046537124" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537103" stopTime="754046537110" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001532" startTime="754046537124" stopTime="754046537128" args="street_rock_02-11"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000383" startTime="754046537125" stopTime="754046537126" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537126" stopTime="754046537126" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006512" startTime="754046537128" stopTime="754046537145" args="woodpath_pillars_4m-23"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004980" startTime="754046537129" stopTime="754046537142" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.004597" startTime="754046537130" stopTime="754046537142" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537143" stopTime="754046537145" args="woodpath_pillars_4m-23"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537144" stopTime="754046537144" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537144" stopTime="754046537144" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006895" startTime="754046537145" stopTime="754046537163" args="beach_rock_med_a_con-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.005363" startTime="754046537146" stopTime="754046537160" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046537146" stopTime="754046537154" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537161" stopTime="754046537163" args="beach_rock_med_a_con-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537162" stopTime="754046537162" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537162" stopTime="754046537162" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.009576" startTime="754046537163" stopTime="754046537188" args="barrel-5"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.008044" startTime="754046537164" stopTime="754046537185" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.004214" startTime="754046537165" stopTime="754046537176" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537185" stopTime="754046537187" args="barrel-5"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537186" stopTime="754046537186" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537187" stopTime="754046537187" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046537188" stopTime="754046537201" args="street_rock_01-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046537189" stopTime="754046537198" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537190" stopTime="754046537197" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537198" stopTime="754046537200" args="street_rock_01-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537199" stopTime="754046537199" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000383" startTime="754046537199" stopTime="754046537200" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005363" startTime="754046537201" stopTime="754046537215" args="dry_pattern_b-3"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003830" startTime="754046537202" stopTime="754046537212" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537205" stopTime="754046537212" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537213" stopTime="754046537215" args="dry_pattern_b-3"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537214" stopTime="754046537214" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537214" stopTime="754046537214" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.012258" startTime="754046537215" stopTime="754046537247" args="fishing_house_c-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.009959" startTime="754046537217" stopTime="754046537243" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.007278" startTime="754046537217" stopTime="754046537236" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001532" startTime="754046537243" stopTime="754046537247" args="fishing_house_c-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537245" stopTime="754046537245" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537245" stopTime="754046537245" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006129" startTime="754046537248" stopTime="754046537264" args="half_pattern_b-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004597" startTime="754046537249" stopTime="754046537261" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003447" startTime="754046537252" stopTime="754046537261" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537262" stopTime="754046537264" args="half_pattern_b-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537263" stopTime="754046537263" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537263" stopTime="754046537263" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.003830" startTime="754046537264" stopTime="754046537274" args="half_pattern_b-8"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002298" startTime="754046537265" stopTime="754046537271" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046537265" stopTime="754046537271" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537272" stopTime="754046537274" args="half_pattern_b-8"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537273" stopTime="754046537273" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537273" stopTime="754046537273" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004597" startTime="754046537274" stopTime="754046537286" args="dry_pattern_c-6"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003447" startTime="754046537275" stopTime="754046537284" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.001915" startTime="754046537278" stopTime="754046537283" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537284" stopTime="754046537286" args="dry_pattern_c-6"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537285" stopTime="754046537285" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000383" startTime="754046537285" stopTime="754046537286" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.003447" startTime="754046537286" stopTime="754046537295" args="half_pattern_b-5"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.001915" startTime="754046537288" stopTime="754046537293" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.001915" startTime="754046537288" stopTime="754046537293" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000383" startTime="754046537294" stopTime="754046537295" args="half_pattern_b-5"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537295" stopTime="754046537295" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537295" stopTime="754046537295" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.014939" startTime="754046537296" stopTime="754046537335" args="street_rock_01-4"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.011874" startTime="754046537299" stopTime="754046537330" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.006512" startTime="754046537300" stopTime="754046537317" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001149" startTime="754046537331" stopTime="754046537334" args="street_rock_01-4"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537333" stopTime="754046537333" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537333" stopTime="754046537333" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004597" startTime="754046537335" stopTime="754046537347" args="dry_pattern_a-3"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046537337" stopTime="754046537345" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537338" stopTime="754046537345" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537345" stopTime="754046537347" args="dry_pattern_a-3"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537346" stopTime="754046537346" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537347" stopTime="754046537347" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006895" startTime="754046537348" stopTime="754046537366" args="rock_particle_high-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004597" startTime="754046537351" stopTime="754046537363" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046537352" stopTime="754046537358" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537364" stopTime="754046537366" args="rock_particle_high-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537365" stopTime="754046537365" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537365" stopTime="754046537365" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.008810" startTime="754046537367" stopTime="754046537390" args="beach_rock_big_b_con-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.006895" startTime="754046537367" stopTime="754046537385" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003830" startTime="754046537368" stopTime="754046537378" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046537385" stopTime="754046537390" args="beach_rock_big_b_con-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537386" stopTime="754046537386" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.001149" startTime="754046537386" stopTime="754046537389" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.008427" startTime="754046537390" stopTime="754046537412" args="canyon_path_a-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.007278" startTime="754046537391" stopTime="754046537410" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003447" startTime="754046537392" stopTime="754046537401" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537410" stopTime="754046537412" args="canyon_path_a-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537411" stopTime="754046537411" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537411" stopTime="754046537411" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.005363" startTime="754046537413" stopTime="754046537427" args="woodpath_pillars_4m-24"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046537414" stopTime="754046537422" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046537414" stopTime="754046537422" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001532" startTime="754046537423" stopTime="754046537427" args="woodpath_pillars_4m-24"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537423" stopTime="754046537423" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000766" startTime="754046537424" stopTime="754046537426" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004214" startTime="754046537427" stopTime="754046537438" args="woodpath_pillars_4m-25"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.003064" startTime="754046537428" stopTime="754046537436" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046537429" stopTime="754046537435" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537436" stopTime="754046537438" args="woodpath_pillars_4m-25"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537437" stopTime="754046537437" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537437" stopTime="754046537437" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.007661" startTime="754046537438" stopTime="754046537458" args="dry_pattern_a-4"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004980" startTime="754046537439" stopTime="754046537452" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046537440" stopTime="754046537446" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046537453" stopTime="754046537458" args="dry_pattern_a-4"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537454" stopTime="754046537454" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.001149" startTime="754046537454" stopTime="754046537457" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.003830" startTime="754046537458" stopTime="754046537468" args="dry_pattern_b-6"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046537459" stopTime="754046537466" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537459" stopTime="754046537466" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000383" startTime="754046537467" stopTime="754046537468" args="dry_pattern_b-6"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000383" startTime="754046537467" stopTime="754046537468" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537468" stopTime="754046537468" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006895" startTime="754046537469" stopTime="754046537487" args="dry_pattern_b-4"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004214" startTime="754046537470" stopTime="754046537481" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046537470" stopTime="754046537476" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046537482" stopTime="754046537487" args="dry_pattern_b-4"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.001149" startTime="754046537483" stopTime="754046537486" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537486" stopTime="754046537486" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006895" startTime="754046537487" stopTime="754046537505" args="half_pattern_b-6"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.005363" startTime="754046537488" stopTime="754046537502" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537489" stopTime="754046537496" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001149" startTime="754046537502" stopTime="754046537505" args="half_pattern_b-6"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000383" startTime="754046537503" stopTime="754046537504" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537504" stopTime="754046537504" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.007661" startTime="754046537506" stopTime="754046537526" args="woodpath_pillars_4m-26"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004980" startTime="754046537507" stopTime="754046537520" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537507" stopTime="754046537514" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046537521" stopTime="754046537526" args="woodpath_pillars_4m-26"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.001149" startTime="754046537522" stopTime="754046537525" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537525" stopTime="754046537525" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.007278" startTime="754046537526" stopTime="754046537545" args="granite_rock_group_small_a-1"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.005746" startTime="754046537527" stopTime="754046537542" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046537528" stopTime="754046537534" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001149" startTime="754046537542" stopTime="754046537545" args="granite_rock_group_small_a-1"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537543" stopTime="754046537543" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537544" stopTime="754046537544" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006895" startTime="754046537546" stopTime="754046537564" args="woodpath_pillars_4m-27"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004980" startTime="754046537546" stopTime="754046537559" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002681" startTime="754046537547" stopTime="754046537554" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001915" startTime="754046537559" stopTime="754046537564" args="woodpath_pillars_4m-27"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.001149" startTime="754046537560" stopTime="754046537563" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537563" stopTime="754046537563" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006512" startTime="754046537565" stopTime="754046537582" args="beach_rock_med_c_con-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.005363" startTime="754046537565" stopTime="754046537579" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.003064" startTime="754046537566" stopTime="754046537574" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537580" stopTime="754046537582" args="beach_rock_med_c_con-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537581" stopTime="754046537581" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537581" stopTime="754046537581" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.004980" startTime="754046537582" stopTime="754046537595" args="dry_pattern_c-2"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.002681" startTime="754046537583" stopTime="754046537590" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046537584" stopTime="754046537590" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.001532" startTime="754046537591" stopTime="754046537595" args="dry_pattern_c-2"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537594" stopTime="754046537594" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537595" stopTime="754046537595" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CBrushObject::Done" totalTimeMS="0.006129" startTime="754046537596" stopTime="754046537612" args="dry_pattern_c-5"> 
+							<block name="CBrushObject::FreeGameData" totalTimeMS="0.004597" startTime="754046537597" stopTime="754046537609" args=""> 
+								<block name="C3DEngine::DeleteRenderNode" totalTimeMS="0.002298" startTime="754046537597" stopTime="754046537603" args=""> 
+								</block>
+							</block>
+							<block name="CBaseObject::Done" totalTimeMS="0.000766" startTime="754046537609" stopTime="754046537611" args="dry_pattern_c-5"> 
+								<block name="CBaseObject::DetachThis" totalTimeMS="0.000000" startTime="754046537610" stopTime="754046537610" args=""> 
+								</block>
+								<block name="CBaseObject::DetachAll" totalTimeMS="0.000000" startTime="754046537611" stopTime="754046537611" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="CTerrainManager::RemoveAllSurfaceTypes" totalTimeMS="0.001149" startTime="754046540686" stopTime="754046540689" args=""> 
+					</block>
+					<block name="CGameEngine::ResetResources" totalTimeMS="14.525912" startTime="754046540801" stopTime="754046578723" args=""> 
+						<block name="CEntitySystem::Reset" totalTimeMS="0.754220" startTime="754046540804" stopTime="754046542773" args=""> 
+						</block>
+						<block name="C3DEngine::UnloadLevel" totalTimeMS="11.274225" startTime="754046542776" stopTime="754046572209" args=""> 
+							<block name="CResourceManager::UnloadAllLevelCachePaks" totalTimeMS="0.004597" startTime="754046542800" stopTime="754046542812" args=""> 
+							</block>
+							<block name="CStreamEngine::UpdateAndWait" totalTimeMS="0.000766" startTime="754046542814" stopTime="754046542816" args=""> 
+							</block>
+							<block name="CFlowGraphModuleManager::ClearLevelModules" totalTimeMS="0.000383" startTime="754046543610" stopTime="754046543611" args=""> 
+							</block>
+							<block name="CFlashUI::OnSystemEvent" totalTimeMS="0.043667" startTime="754046543655" stopTime="754046543769" args=""> 
+								<block name="CFlashUI::UpdateFG" totalTimeMS="0.004214" startTime="754046543661" stopTime="754046543672" args=""> 
+								</block>
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.001149" startTime="754046565780" stopTime="754046565783" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046565795" stopTime="754046565797" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046565803" stopTime="754046565804" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046565847" stopTime="754046565848" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046565854" stopTime="754046565854" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046565875" stopTime="754046565876" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.002681" startTime="754046565880" stopTime="754046565887" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046565894" stopTime="754046565894" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046565939" stopTime="754046565940" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046565948" stopTime="754046565949" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046565954" stopTime="754046565954" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046565980" stopTime="754046565981" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046565987" stopTime="754046565987" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566000" stopTime="754046566001" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566006" stopTime="754046566007" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566029" stopTime="754046566031" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566038" stopTime="754046566038" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.001532" startTime="754046566041" stopTime="754046566045" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566049" stopTime="754046566050" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566055" stopTime="754046566055" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566059" stopTime="754046566059" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566078" stopTime="754046566079" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566083" stopTime="754046566084" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566093" stopTime="754046566093" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566109" stopTime="754046566109" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566123" stopTime="754046566124" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566130" stopTime="754046566131" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566139" stopTime="754046566139" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566146" stopTime="754046566146" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566152" stopTime="754046566154" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566160" stopTime="754046566160" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566166" stopTime="754046566166" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566172" stopTime="754046566172" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566179" stopTime="754046566179" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566184" stopTime="754046566184" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566190" stopTime="754046566190" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566197" stopTime="754046566197" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566205" stopTime="754046566205" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566212" stopTime="754046566212" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566218" stopTime="754046566218" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566224" stopTime="754046566226" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566233" stopTime="754046566233" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566238" stopTime="754046566238" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566243" stopTime="754046566243" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566248" stopTime="754046566249" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566254" stopTime="754046566255" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566260" stopTime="754046566260" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566265" stopTime="754046566265" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566277" stopTime="754046566279" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566281" stopTime="754046566282" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566284" stopTime="754046566285" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566287" stopTime="754046566287" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566289" stopTime="754046566291" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566293" stopTime="754046566294" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566296" stopTime="754046566296" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566298" stopTime="754046566299" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566301" stopTime="754046566302" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566304" stopTime="754046566305" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566306" stopTime="754046566307" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566309" stopTime="754046566310" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566312" stopTime="754046566312" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566324" stopTime="754046566324" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566330" stopTime="754046566331" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566334" stopTime="754046566335" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.001149" startTime="754046566338" stopTime="754046566341" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566344" stopTime="754046566345" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566348" stopTime="754046566348" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566352" stopTime="754046566352" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566360" stopTime="754046566361" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566364" stopTime="754046566365" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566367" stopTime="754046566368" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566370" stopTime="754046566371" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566393" stopTime="754046566394" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566410" stopTime="754046566412" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566438" stopTime="754046566440" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.001149" startTime="754046566465" stopTime="754046566468" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566471" stopTime="754046566472" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566474" stopTime="754046566475" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566477" stopTime="754046566478" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566480" stopTime="754046566481" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566483" stopTime="754046566484" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566486" stopTime="754046566487" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566489" stopTime="754046566490" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566491" stopTime="754046566492" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566495" stopTime="754046566496" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566498" stopTime="754046566499" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566514" stopTime="754046566514" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566516" stopTime="754046566518" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566520" stopTime="754046566521" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566523" stopTime="754046566523" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566525" stopTime="754046566526" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566528" stopTime="754046566528" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566533" stopTime="754046566533" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566535" stopTime="754046566535" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566538" stopTime="754046566538" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566541" stopTime="754046566541" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566543" stopTime="754046566543" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566546" stopTime="754046566546" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566548" stopTime="754046566548" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566551" stopTime="754046566553" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566557" stopTime="754046566557" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566560" stopTime="754046566560" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566563" stopTime="754046566563" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566566" stopTime="754046566566" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566577" stopTime="754046566578" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566582" stopTime="754046566582" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566588" stopTime="754046566588" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566591" stopTime="754046566591" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566594" stopTime="754046566595" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566598" stopTime="754046566598" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566601" stopTime="754046566603" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566606" stopTime="754046566606" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566609" stopTime="754046566609" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566613" stopTime="754046566613" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566616" stopTime="754046566616" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566619" stopTime="754046566619" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566622" stopTime="754046566622" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566625" stopTime="754046566625" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566628" stopTime="754046566628" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566631" stopTime="754046566631" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566634" stopTime="754046566634" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566637" stopTime="754046566637" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566640" stopTime="754046566642" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566645" stopTime="754046566645" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566648" stopTime="754046566648" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566650" stopTime="754046566650" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566653" stopTime="754046566653" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566655" stopTime="754046566656" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566659" stopTime="754046566659" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566662" stopTime="754046566662" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566665" stopTime="754046566665" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566668" stopTime="754046566668" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566678" stopTime="754046566678" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566682" stopTime="754046566682" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566686" stopTime="754046566688" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566696" stopTime="754046566697" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566704" stopTime="754046566705" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566708" stopTime="754046566708" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566712" stopTime="754046566713" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566715" stopTime="754046566716" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566717" stopTime="754046566718" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566720" stopTime="754046566721" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566722" stopTime="754046566723" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566724" stopTime="754046566725" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566726" stopTime="754046566727" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566729" stopTime="754046566731" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566733" stopTime="754046566734" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566735" stopTime="754046566736" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566738" stopTime="754046566739" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566740" stopTime="754046566741" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566743" stopTime="754046566744" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566745" stopTime="754046566746" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566748" stopTime="754046566749" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566750" stopTime="754046566751" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566752" stopTime="754046566752" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566755" stopTime="754046566755" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566758" stopTime="754046566758" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566760" stopTime="754046566762" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566765" stopTime="754046566765" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566767" stopTime="754046566767" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566770" stopTime="754046566770" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566772" stopTime="754046566772" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566775" stopTime="754046566775" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566778" stopTime="754046566778" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000383" startTime="754046566780" stopTime="754046566781" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566783" stopTime="754046566783" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566786" stopTime="754046566786" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566789" stopTime="754046566789" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000766" startTime="754046566791" stopTime="754046566793" args=""> 
+							</block>
+							<block name="CStatObj::SetRenderMesh" totalTimeMS="0.000000" startTime="754046566796" stopTime="754046566796" args=""> 
+							</block>
+							<block name="CRenderer::ForceFlushRTCommands" totalTimeMS="0.016471" startTime="754046570081" stopTime="754046570124" args=""> 
+							</block>
+						</block>
+						<block name="CCryAction::EndGameContext" totalTimeMS="1.205832" startTime="754046575574" stopTime="754046578722" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CTerrainManager::ClearLayers" totalTimeMS="0.000766" startTime="754046579437" stopTime="754046579439" args=""> 
+				</block>
+				<block name="CLevelModelsManager::CreateLayerModels" totalTimeMS="0.001149" startTime="754046579503" stopTime="754046579506" args=""> 
+				</block>
+			</block>
+		</block>
+	</thread>
+</root>

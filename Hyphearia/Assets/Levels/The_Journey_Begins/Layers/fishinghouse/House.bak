@@ -1,0 +1,21 @@
+<ObjectLayer>
+ <Layer Name="House" FullName="FishingHouse/House" GUID="7c941bf7-ab16-b6e2-8b69-e36e40cf9de4" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="6fea63d4-4753-39b0-e142-f571a7e80a0b">
+  <LayerObjects>
+   <Object Type="Brush" Layer="House" LayerGUID="7c941bf7-ab16-b6e2-8b69-e36e40cf9de4" Id="923eb0a7-62ac-20ad-fd7b-b492861555ed" Name="barrel-3" Pos="1175.1765,935.008,43.656006" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/buildings/fishing_houses/barrel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="House" LayerGUID="7c941bf7-ab16-b6e2-8b69-e36e40cf9de4" Id="20dbab72-31c6-2a95-60fe-fcf6b6302f42" Name="barrel-1" Pos="1182.0353,936.76996,43.7845" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/buildings/fishing_houses/barrel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="House" LayerGUID="7c941bf7-ab16-b6e2-8b69-e36e40cf9de4" Id="b8997c76-6734-54f6-4517-978d159c9d8e" Name="fishing_door_c-1" Pos="1180.0786,936.36633,45.228104" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/buildings/fishing_houses/fishing_door_c.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="House" LayerGUID="7c941bf7-ab16-b6e2-8b69-e36e40cf9de4" Id="29c78bfc-05e9-95e5-9770-72baba493339" Name="barrel-2" Pos="1175.2482,935.90796,43.614223" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/buildings/fishing_houses/barrel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="House" LayerGUID="7c941bf7-ab16-b6e2-8b69-e36e40cf9de4" Id="266d5c4a-84b1-ca64-1a8d-5e6714c5502c" Name="fishing_house_c-1" Pos="1179.3937,931.00806,44.073895" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/buildings/fishing_houses/fishing_house_c.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

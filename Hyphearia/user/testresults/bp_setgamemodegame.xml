@@ -1,0 +1,48 @@
+<root>
+	<thread name="Main" totalTimeMS="24.673212" startTime="753903490732" stopTime="753903555145" totalBlocks="126"> 
+		<block name="CGameEngine::SetGameMode" totalTimeMS="24.648699" startTime="753903490795" stopTime="753903555144" args=""> 
+			<block name="CCryAction::OnEditorSetGameMode" totalTimeMS="0.389176" startTime="753903498490" stopTime="753903499506" args=""> 
+				<block name="CActionGame::OnEditorSetGameMode" totalTimeMS="0.326356" startTime="753903498491" stopTime="753903499343" args=""> 
+				</block>
+			</block>
+			<block name="CAISystem::Reset" totalTimeMS="2.686309" startTime="753903508916" stopTime="753903515929" args=""> 
+				<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.830446" startTime="753903509215" stopTime="753903511383" args="%ENGINE%/EngineAssets/CodeCoverage/pbar.dds"> 
+					<block name="CTexture::LoadFromImage" totalTimeMS="0.827765" startTime="753903509220" stopTime="753903511381" args="%ENGINE%/EngineAssets/CodeCoverage/pbar.dds"> 
+						<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.149771" startTime="753903509800" stopTime="753903510191" args=""> 
+							<block name="CImageDDSFile::Load" totalTimeMS="0.145558" startTime="753903509801" stopTime="753903510181" args=""> 
+							</block>
+						</block>
+						<block name="CTexture::Load(CImageFile* pImage)" totalTimeMS="0.176202" startTime="753903510915" stopTime="753903511375" args="%engine%/engineassets/codecoverage/pbar.dds"> 
+						</block>
+					</block>
+				</block>
+				<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.788694" startTime="753903511464" stopTime="753903513523" args="%ENGINE%/EngineAssets/CodeCoverage/hit.dds"> 
+					<block name="CTexture::LoadFromImage" totalTimeMS="0.787545" startTime="753903511466" stopTime="753903513522" args="%ENGINE%/EngineAssets/CodeCoverage/hit.dds"> 
+						<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.156666" startTime="753903511950" stopTime="753903512359" args=""> 
+							<block name="CImageDDSFile::Load" totalTimeMS="0.151687" startTime="753903511950" stopTime="753903512346" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.106870" startTime="753903512568" stopTime="753903512847" args="%engine%/engineassets/codecoverage/hit.tif"> 
+						</block>
+						<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.153219" startTime="753903512864" stopTime="753903513264" args=""> 
+							<block name="CImageDDSFile::Load" totalTimeMS="0.146707" startTime="753903512870" stopTime="753903513253" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.461572" startTime="753903513598" stopTime="753903514803" args="%ENGINE%/EngineAssets/CodeCoverage/unexpected.dds"> 
+					<block name="CTexture::LoadFromImage" totalTimeMS="0.460423" startTime="753903513600" stopTime="753903514802" args="%ENGINE%/EngineAssets/CodeCoverage/unexpected.dds"> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.110701" startTime="753903513818" stopTime="753903514107" args="%ENGINE%/EngineAssets/CodeCoverage/unexpected.tif"> 
+						</block>
+						<block name="CImageDDSFile::CImageDDSFile" totalTimeMS="0.126789" startTime="753903514126" stopTime="753903514457" args=""> 
+							<block name="CImageDDSFile::Load" totalTimeMS="0.123724" startTime="753903514127" stopTime="753903514450" args=""> 
+							</block>
+						</block>
+						<block name="CTexture::StreamPrepare_Finalise" totalTimeMS="0.102657" startTime="753903514532" stopTime="753903514800" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+	</thread>
+</root>

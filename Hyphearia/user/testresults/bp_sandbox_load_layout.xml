@@ -1,0 +1,20 @@
+<root>
+	<thread name="Main" totalTimeMS="91.156364" startTime="1861957933800" stopTime="1861958171777" totalBlocks="12"> 
+		<block name="CTabPaneManager::LoadLayout" totalTimeMS="91.136444" startTime="1861957933849" stopTime="1861958171774" args=""> 
+			<block name="CTabPaneManager::LoadLayoutFromFile" totalTimeMS="91.072479" startTime="1861957934015" stopTime="1861958171773" args="C:/Users/XTC/AppData/Roaming/Crytek/CRYENGINE/Layout.json"> 
+				<block name="CTabPaneManager::SetState" totalTimeMS="90.617805" startTime="1861957934624" stopTime="1861958171195" args=""> 
+					<block name="CSystem::Update" totalTimeMS="0.229062" startTime="1861957935739" stopTime="1861957936337" args=""> 
+					</block>
+					<block name="CTabPaneManager::SetState" totalTimeMS="29.476229" startTime="1861957948643" stopTime="1861958025595" args="Level Explorer"> 
+						<block name="CTabPaneManager::CreateTabPane" totalTimeMS="28.890551" startTime="1861957948669" stopTime="1861958024092" args="Level Explorer"> 
+							<block name="CTabPaneManager::CreatePaneContents" totalTimeMS="3.380772" startTime="1861957949011" stopTime="1861957957837" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CSystem::Update" totalTimeMS="0.415989" startTime="1861958071948" stopTime="1861958073034" args=""> 
+					</block>
+				</block>
+			</block>
+		</block>
+	</thread>
+</root>

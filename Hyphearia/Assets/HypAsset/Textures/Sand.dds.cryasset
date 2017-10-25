@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="ac71e082-af9c-f6be-b3f8-ca42f538413e" source="AAB_Albedo.tif">
+ <Files>
+  <File path="AAB_Albedo.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

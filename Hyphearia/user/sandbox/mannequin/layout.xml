@@ -1,0 +1,15 @@
+<MannequinLayout>
+ <SequencerSplitter Col0="200" Col1="252"/>
+ <VerticalSplitter Row0="408"/>
+ <HorizontalSplitter Col0="400"/>
+ <SequencerSplitter Col0="-1" Col1="-1"/>
+ <VerticalSplitter Row0="-1"/>
+ <HorizontalSplitter Col0="-1"/>
+ <SequencerSplitter Col0="-1" Col1="-1"/>
+ <VerticalSplitter Row0="-1"/>
+ <HorizontalSplitter Col0="-1"/>
+ <SubFoldersCheckbox Value="1"/>
+ <EmptyFoldersCheckbox Value="1"/>
+ <FragmentSplitter Row0="400"/>
+ <FragmentPane Width="274" Height="490"/>
+</MannequinLayout>

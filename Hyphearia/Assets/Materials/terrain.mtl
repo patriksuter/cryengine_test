@@ -1,0 +1,13 @@
+<Material MtlFlags="524320" Shader="Illum" GenMask="80400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_default" MatTemplate="" Diffuse="0.42869052,0.42869052,0.059511244" Specular="0.87962252,0.85499275,0.23074007" Opacity="1" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="AAAlbedo.dds"/>
+  <Texture Map="Bumpmap" File="AAAlbedo.dds"/>
+  <Texture Map="Environment" File="AAAlbedo.dds"/>
+  <Texture Map="Detail" File="AAAlbedo.dds"/>
+  <Texture Map="Heightmap" File="AAAlbedo.dds"/>
+  <Texture Map="Custom" File="AAAlbedo.dds"/>
+  <Texture Map="[1] Custom" File="AAAlbedo.dds"/>
+  <Texture Map="Emittance" File="AAAlbedo.dds"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

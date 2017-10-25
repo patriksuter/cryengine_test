@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="835606e2-df0b-e0cc-c4d7-9dbe516fec08">
+ <Files>
+  <File path="defaultweapon.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">2920</Detail>
+  <Detail name="vertexCount">5626</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./defaultWeapon.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

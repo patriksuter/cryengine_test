@@ -1,0 +1,897 @@
+Project Hyphearia
+Using Project Folder C:/Users/XTC/Documents/GitHub/cryengine_test/Hyphearia
+Using Engine Folder C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.4\
+Using Asset Folder C:/Users/XTC/Documents/GitHub/cryengine_test/Hyphearia/Assets
+
+Total number of logical processors: 4
+Number of available logical processors: 4
+Total number of system cores: 4
+Number of cores available to process: 4
+ 
+Processor 0:
+  CPU: Intel Intel(R) Core(TM) i5 CPU         750  @ 2.67GHz
+  Family: 6, Model: 14, Stepping: 5
+  FPU: On-Chip
+  Features: SSE, SSE2, SSE3, SSE4.2
+  Serial number not present or disabled
+ 
+Processor 1:
+  CPU: Intel Intel(R) Core(TM) i5 CPU         750  @ 2.67GHz
+  Family: 6, Model: 14, Stepping: 5
+  FPU: On-Chip
+  Features: SSE, SSE2, SSE3, SSE4.2
+  Serial number not present or disabled
+ 
+Processor 2:
+  CPU: Intel Intel(R) Core(TM) i5 CPU         750  @ 2.67GHz
+  Family: 6, Model: 14, Stepping: 5
+  FPU: On-Chip
+  Features: SSE, SSE2, SSE3, SSE4.2
+  Serial number not present or disabled
+ 
+Processor 3:
+  CPU: Intel Intel(R) Core(TM) i5 CPU         750  @ 2.67GHz
+  Family: 6, Model: 14, Stepping: 5
+  FPU: On-Chip
+  Features: SSE, SSE2, SSE3, SSE4.2
+  Serial number not present or disabled
+ 
+<23:46:44> [Warning] [CVARS]: [CHANGED] variable [sys_asserts] from [1] to [0]; Marked as [VF_CHEAT]
+<23:46:44> [Warning] Modifying marked variables will not be allowed in Release mode!
+<23:46:44> [Warning] [CVARS]: [CHANGED] variable [sys_asserts] from [1] to [0]; Marked as [VF_CHEAT]
+<23:46:44> [Warning] Modifying marked variables will not be allowed in Release mode!
+<23:46:44> creating CVarGroups from directory 'assets/Config/CVarGroups' ...
+<23:46:44> creating CVarGroups from directory 'Config/CVarGroups' ...
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_full.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_full.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_gameeffects.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_gameeffects.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_light.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_light.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_objectdetail.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_objectdetail.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_particles.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_particles.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_physics.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_physics.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_postprocessing.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_postprocessing.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_quality.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_quality.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_shading.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_shading.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_shadows.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_shadows.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_sound.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_sound.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_texture.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_texture.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_textureresolution.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_textureresolution.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_volumetriceffects.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_volumetriceffects.cfg)
+<23:46:44> Loading Config file Config/CVarGroups/sys_spec_water.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_water.cfg)
+<23:46:44> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "%engine%/config/engine_core.thread_config".
+<23:46:44> Windows 10 64 bit (build 10.0.15063)
+<23:46:44> User name: "XTC"
+<23:46:44> System language: German
+<23:46:44> Windows Directory: "C:\WINDOWS"
+<23:46:44> Local time is 23:46:44 10/18/17, system running for 10371 minutes
+<23:46:44> 16376MB physical memory installed, 11040MB available, 134217727MB virtual memory installed, 32 percent of memory in use
+<23:46:44> PageFile usage: 34MB, Working Set: 29MB, Peak PageFile usage: 34MB,
+<23:46:44> Current display mode is 1920x1080x32, (Unknown graphics card)
+<23:46:44> IBM enhanced (101/102-key) keyboard and 16+ button mouse installed
+<23:46:44> --------------------------------------------------------------------------------
+<23:46:44> [Warning] Config file %USER%/game.cfg not found!
+<23:46:44> Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\system.cfg)
+<23:46:44> [Warning] [CVARS]: [CHANGED] variable [sys_asserts] from [0] to [0]; Marked as [VF_CHEAT]
+<23:46:44> [Warning] Modifying marked variables will not be allowed in Release mode!
+<23:46:44> [Warning] Config file user.cfg not found!
+<23:46:44> Stream Engine Initialization
+<23:46:44> BuildTime: Sep 20 2017 16:39:13
+<23:46:44> Physics initialization
+<23:46:44> Loading Module CryPhysics.dll...
+<23:46:44> Initializing CryPhysics done, MemUsage=904Kb
+<23:46:44> [Warning] Cannot open Pak file assets\localization\english_xml.pak
+<23:46:44> Localized language content(english) not available or modified from the original installation.
+<23:46:44> [Warning] Cannot open Pak file assets\localization\english.pak
+<23:46:44> Localized language content(english) not available or modified from the original installation.
+<23:46:44> [Warning] Cannot open Pak file assets\localization\english.pak
+<23:46:44> Localized language content(english) not available or modified from the original installation.
+<23:46:44> [Error] <Localization> No localization files found!
+<23:46:44> <Audio>: AudioSystem initialization
+<23:46:44> Loading Module CryAudioSystem.dll...
+<23:46:45> <Audio> <0.718>: CryAudioImplSDLMixer loaded
+<23:46:45> Initializing CryAudioSystem done, MemUsage=5868Kb
+<23:46:45> Renderer initialization
+<23:46:45> Logging video adapters:
+<23:46:45> - NVIDIA GeForce GTX 770 (vendor = 0x10de, device = 0x1184)
+<23:46:45>   - Adapter index: 0
+<23:46:45>   - Dedicated video memory: 4063 MB
+<23:46:45>   - Feature level: D3D 11_0 (SM 5.0)
+<23:46:45>   - Displays connected: yes
+<23:46:45>   - Suitable rendering device: yes
+<23:46:45> - Microsoft Basic Render Driver (vendor = 0x1414, device = 0x008c)
+<23:46:45>   - Adapter index: 1
+<23:46:45>   - Dedicated video memory: 0 MB
+<23:46:45>   - Feature level: D3D 11_1 (SM 5.x)
+<23:46:45>   - Displays connected: no
+<23:46:45>   - Suitable rendering device: no
+<23:46:45> Loading Module CryRenderD3D11.dll...
+<23:46:45> CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
+<23:46:45> Initializing CryRenderD3D11 done, MemUsage=3296Kb
+<23:46:45> Initializing Direct3D and creating game window:
+<23:46:45> Direct3D driver is creating...
+<23:46:45> Crytek Direct3D driver version 3.00 (Sep 20 2017 <16:40:13>)
+<23:46:45> Creating window called 'Hyphearia' (1280x678)
+<23:46:45> D3D Adapter: Description: NVIDIA GeForce GTX 770
+<23:46:45> D3D Adapter: Driver version (UMD): 0.00.00.0000
+<23:46:45> D3D Adapter: VendorId = 0x10DE
+<23:46:45> D3D Adapter: DeviceId = 0x1184
+<23:46:45> D3D Adapter: SubSysId = 0x118410B0
+<23:46:45> D3D Adapter: Revision = 161
+<23:46:45> NVAPI: API init ok (0)
+<23:46:45> NVAPI: Single GPU system
+<23:46:45> NVDBT supported
+<23:46:45> D3D Detected: NVIDIA video card
+<23:46:45> Active GPUs: 1
+<23:46:45> Using pixel texture formats:
+<23:46:45>   R8G8B8A8S, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R8G8B8A8, mips, sRGB, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   A8, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R8, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R8S, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R16, mips, RT (blendable) (multi-sampled), sample (comparable), gather (comparable)
+<23:46:45>   R16S, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R16F, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R32F, mips, RT (blendable) (multi-sampled), sample (comparable), gather (comparable)
+<23:46:45>   R8G8, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R8G8S, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R16G16, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R16G16S, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R16G16F, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R32G32F, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R11G11B10F, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R10G10B10A2, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R16G16B16A16, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R16G16B16A16S, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R16G16B16A16F, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   R32G32B32A32F, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   BC1, mips, sRGB, sample, gather
+<23:46:45>   BC2, mips, sRGB, sample, gather
+<23:46:45>   BC3, mips, sRGB, sample, gather
+<23:46:45>   BC4, mips, sample, gather
+<23:46:45>   BC4S, mips, sample, gather
+<23:46:45>   BC5, mips, sample, gather
+<23:46:45>   BC5S, mips, sample, gather
+<23:46:45>   BC6UH, mips, sample, gather
+<23:46:45>   BC6SH, mips, sample, gather
+<23:46:45>   BC7, mips, sRGB, sample, gather
+<23:46:45>   R9G9B9E5, mips, sample, gather
+<23:46:45>   D32FS8 (R32G8T), mips, DS (multi-sampled)
+<23:46:45>   D32F (R32T), mips, DS (multi-sampled)
+<23:46:45>   D24S8 (R24G8T), mips, DS (multi-sampled)
+<23:46:45>   D16 (R16T), mips, DS (multi-sampled)
+<23:46:45>   B5G6R5, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   B5G5R5, mips, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   B4G4R4A4, mips, sample, gather
+<23:46:45>   B8G8R8A8, mips, sRGB, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>   B8G8R8X8, mips, sRGB, RT (blendable) (multi-sampled), sample, gather
+<23:46:45>  Renderer DepthBits: 24
+<23:46:45>  ****** CryRender InfoDump ******
+<23:46:45>  Driver description: NVIDIA GeForce GTX 770
+<23:46:45>  API Version: Direct3D 11.0
+<23:46:45>  Feature level: D3D 11_0
+<23:46:45>  Vertex Shaders version 5.0
+<23:46:45>  Pixel Shaders version 5.0
+<23:46:45>  Full stats: 
+<23:46:45>  Rasterizer: Hardware
+<23:46:45>  Current Resolution: 1280x678x32 Windowed
+<23:46:45>  HDR Rendering: FP16
+<23:46:45>  Occlusion queries: Supported
+<23:46:45>  Geometry instancing: Supported
+<23:46:45>  NormalMaps compression : Supported
+<23:46:45>  Gamma control: Hardware
+<23:46:45>  Used GeomInstancingThreshold is 8
+<23:46:45>  Shader model usage: 'SM.5.0'
+<23:46:45>  *****************************************
+<23:46:45>  
+<23:46:45> Init Shaders
+<23:46:45>  General shader quality: Medium
+<23:46:45>  Metal shader quality: Medium
+<23:46:45>  Glass shader quality: Medium
+<23:46:45>  Vegetation shader quality: Medium
+<23:46:45>  Ice shader quality: Medium
+<23:46:45>  Terrain shader quality: Medium
+<23:46:45>  Shadow shader quality: Medium
+<23:46:45>  Water shader quality: Medium
+<23:46:45>  FX shader quality: Medium
+<23:46:45>  PostProcess shader quality: Medium
+<23:46:45>  HDR shader quality: Medium
+<23:46:45>  Sky shader quality: Medium
+<23:46:45> Render quality: VeryHigh
+<23:46:45> Init textures management (4063 Mb of video memory is available)...
+<23:46:45>   Enabling of textures streaming...
+<23:46:45>   Using 1536 Mb of textures pool for streaming...
+<23:46:45>   Video textures: Atlas clouds max size: 32 Mb
+<23:46:45>   Video textures: Atlas sprites max size: 32 Mb
+<23:46:45>   Video textures: Dynamic managed max size: 48 Mb
+<23:46:45>   Reloading all textures...
+<23:46:45>   Finished reloading textures...
+<23:46:45>   Finished initializing textures streaming...
+<23:46:46> Initialized hardware mouse (game is allowed to confine mouse to window)
+<23:46:46> CryMonoBridge initialization
+<23:46:46> Loading Module CryMonoBridge.dll...
+<23:46:46> [Mono] Initialize Mono Runtime . . . 
+<23:46:46> [Mono] Debugger server active on port: 17615
+<23:46:46> [Mono] Initialization done.
+<23:46:46> Initializing CryMonoBridge done, MemUsage=5568Kb
+<23:46:46> Loading plug-in CryDefaultEntities
+<23:46:46> Loading plug-in CrySensorSystem
+<23:46:46> Loading plug-in CryPerceptionSystem
+<23:46:46> Loading plug-in bin/Game.dll
+<23:46:46> Loading plug-in CryUserAnalytics
+<23:46:46> Initializing CryScaleformHelper done, MemUsage=4Kb
+<23:46:46> Using Scaleform GFx 3.3.94
+<23:46:46>   Using dynamic pool
+<23:46:46> [Warning] Texture does not exist [File=libs/ui/textures/startscreen.dds]
+<23:46:46> [Warning] Invalid splash screen texture
+<23:46:46> Font initialization
+<23:46:46> Loading Module CryFont.dll...
+<23:46:46> Using FreeType 2.5.5
+<23:46:46> Initializing CryFont done, MemUsage=260Kb
+<23:46:46> *** Init system render resources ***
+<23:46:47> Network initialization
+<23:46:47> Loading Module CryNetwork.dll...
+<23:46:47> [LagProfiles] Could not load "". 6 default profiles activated.
+<23:46:47> [Error] Scheduler policy name should not exceed 4 characters.
+<23:46:47> [net] Socket IO management: External [iocp], Internal [iocp]
+<23:46:47> network hostname: DESKTOP-1GUDER2
+<23:46:47>   ip:192.168.2.102
+<23:46:47> [Network Version]: PROFILE DEVELOPMENT BUILD
+<23:46:47> Initializing CryNetwork done, MemUsage=2100Kb
+<23:46:47> MovieSystem initialization
+<23:46:47> Loading Module CryMovie.dll...
+<23:46:47> Initializing CryMovie done, MemUsage=548Kb
+<23:46:47> Console initialization
+<23:46:47> Time initialization
+<23:46:47> Input initialization
+<23:46:47> Loading Module CryInput.dll...
+<23:46:47> Initializing DirectInput
+<23:46:47> Initializing Keyboard
+<23:46:47> Input locale changed to 00000407
+<23:46:47> Initializing mouse
+<23:46:47> Initializing CryInput done, MemUsage=928Kb
+<23:46:47>  
+<23:46:47>     con_debug = 0 []
+<23:46:47>     con_display_last_messages = 0 []
+<23:46:47>     con_line_buffer_size = 1000 []
+<23:46:47>     con_restricted = 0 [RESTRICTEDMODE]
+<23:46:47>     con_showonload = 0 []
+<23:46:47>  
+<23:46:47>     con_debug = 0 []
+<23:46:47>     con_display_last_messages = 0 []
+<23:46:47>     con_line_buffer_size = 1000 []
+<23:46:47>     con_restricted = 0 [RESTRICTEDMODE]
+<23:46:47>     con_showonload = 0 []
+<23:46:47>  
+<23:46:47>     con_debug = 0 []
+<23:46:47>  
+<23:46:47>     con_debug = 0 []
+<23:46:47> Initializing Animation System
+<23:46:47> Loading Module CryAnimation.dll...
+<23:46:47> [Warning] [CVARS]: [CHANGED] variable [ca_UseIMG_CAF] from [1] to [0]; Marked as [VF_CONST_CVAR] [VF_CHEAT]
+<23:46:47> [Warning] Modifying marked variables will not be allowed in Release mode!
+<23:46:47> [Warning] [CVARS]: [CHANGED] variable [ca_UseIMG_CAF] from [1] to [0]; Marked as [VF_CONST_CVAR] [VF_CHEAT]
+<23:46:47> [Warning] Modifying marked variables will not be allowed in Release mode!
+<23:46:47> Initializing CryAnimation done, MemUsage=972Kb
+<23:46:47> Initializing 3D Engine
+<23:46:47> Loading Module Cry3DEngine.dll...
+<23:46:47> [Warning] [CVARS]: [CHANGED] variable [e_WaterOcean] from [1] to [0]; Marked as [VF_CONST_CVAR] [VF_CHEAT]
+<23:46:47> [Warning] Modifying marked variables will not be allowed in Release mode!
+<23:46:47> [Warning] [CVARS]: [CHANGED] variable [e_WaterOcean] from [1] to [0]; Marked as [VF_CONST_CVAR] [VF_CHEAT]
+<23:46:47> [Warning] Modifying marked variables will not be allowed in Release mode!
+<23:46:47> Sky light: Optical lookup tables loaded off disc.
+<23:46:47> Initializing Cry3DEngine done, MemUsage=2648Kb
+<23:46:47> Script System Initialization
+<23:46:47> Loading Module CryScriptSystem.dll...
+<23:46:47> [Warning] [Lua Error] Failed to load script file scripts/common.lua
+<23:46:47> Initializing CryScriptSystem done, MemUsage=608Kb
+<23:46:47> Schematyc initialization
+<23:46:47> Loading Module CrySchematyc.dll...
+<23:46:47> Initializing CrySchematyc done, MemUsage=1652Kb
+<23:46:47> Entity system initialization
+<23:46:47> Loading Module CryEntitySystem.dll...
+<23:46:47> Initializing CryEntitySystem done, MemUsage=1948Kb
+<23:46:47> LiveCreate initialization
+<23:46:47> LiveCreateHost not created, using NULL implementation.
+<23:46:47> Dynamic Response System initialization
+<23:46:47> Loading Module CryDynamicResponseSystem.dll...
+<23:46:47> Initializing CryDynamicResponseSystem done, MemUsage=620Kb
+<23:46:47> Loading Module CryFlowGraph.dll...
+<23:46:47> Successfully registered flownode 'AI:PerceptionState'
+<23:46:47> Successfully registered flownode 'AI:EventListener'
+<23:46:47> Initializing CryFlowGraph done, MemUsage=1032Kb
+<23:46:47> AI initialization
+<23:46:47> Loading Module CryAISystem.dll...
+<23:46:47> Initializing CryAISystem done, MemUsage=1412Kb
+<23:46:47> Initializing AI System
+<23:46:47> AI: [AISYSTEM] Initialization started.
+<23:46:47> [Warning] XML reader: Can't open file (Scripts/AI/Communication/CommunicationSystemConfiguration.xml)
+<23:46:47> [Warning] AI: Failed to open XML file 'Scripts/AI/Communication/CommunicationSystemConfiguration.xml'...
+<23:46:47> [Warning] XML reader: Can't open file (Scripts/AI/lookup.xml)
+<23:46:47> [Warning] [Lua Error] Failed to load script file scripts/ai/aiconfig.lua
+<23:46:47> Registering CentralInterestManager with EntitySystem
+<23:46:47> [Warning] XML reader: Can't open file (Libs/AITargetStimulusConfig.xml)
+<23:46:47> [Warning] AI: CTargetTrackManager::Init() Warning: Failed to load configuration file 'Libs/AITargetStimulusConfig.xml'
+<23:46:47> AI: [AISYSTEM] Initialization finished.
+<23:46:47> Initializing additional systems
+<23:46:47> OnSysSpecChange(0)
+<23:46:48> [Warning] XML reader: Can't open file (Libs/Levels/leveltypes.xml)
+<23:46:48> [Warning] XML reader: Can't open file (Libs/FlowNodes/DialogFlowNodeBuffers.xml)
+<23:46:48> [Warning] CDialogFlowNodeMgr::Init() - Failed to load 'Libs/FlowNodes/DialogFlowNodeBuffers.xml'. dialog flownode buffers disabled.
+<23:46:48> [Warning] [Lua Error] Failed to load script file Scripts/Entities/Vehicles/VehicleSystem.lua
+<23:46:48> [Warning] XML reader: Can't open file (Libs/Readability/Faces/Faces.xml)
+<23:46:48> [Warning] XML reader: Can't open file (Scripts/Network/StatsConfig.xml)
+<23:46:48> [Warning] [Lua Error] Failed to load script file Scripts/Entities/Vehicles/VehiclePartDetached.lua
+<23:46:48> Ending game context...
+<23:46:48> [Warning] XML reader: Can't open file (Libs/GameForceFeedback/ForceFeedbackEffects.xml)
+<23:46:48> [Warning] [ForceFeedback System] Could not load force feedback system data. Invalid XML file 'Libs/GameForceFeedback/ForceFeedbackEffects.xml'! 
+<23:46:48> Initializing default materials...
+<23:46:48> [Warning] XML reader: Can't open file (materials/material_layers_default.mtl)
+<23:46:48> [Warning] [Lua Error] Failed to load script file scripts/main.lua
+<23:46:48> [Warning] [CScriptSystem::BeginCall] Function OnInit not found(check for syntax errors or if the file wasn't loaded)
+<23:46:48> [Warning] Could not load dialog file assets\Libs\DynamicResponseSystem\DialogLines/dialoglines.dialog
+<23:46:48> [MFX] Loading FXLib 'collision' ...
+<23:46:48> [Schematyc]: Loading...
+<23:46:48> [Schematyc]: Loading settings
+<23:46:48> [Warning] XML reader: Can't open file (assets/cryschematycsettings/log_settings.sc_settings)
+<23:46:48> [Schematyc]: Loading scripts
+<23:46:48> [Schematyc]: Compiling scripts
+<23:46:48> [Schematyc]: Loading complete
+<23:46:48> [CONSOLE] Executing console command 'exec autoexec.cfg'
+<23:46:48> Executing console batch file (try game,config,root): "autoexec.cfg" not found!
+<23:46:48> Flushing pended shaders...
+<23:46:48> Finished flushing pended shaders...
+<23:46:48> Flushing pended shaders...
+<23:46:48> Finished flushing pended shaders...
+<23:46:48> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<23:46:48> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<23:46:48> Flushing pended textures...
+<23:46:48> Finished flushing pended textures...
+<23:46:48> [CONSOLE] Executing console command 'map example'
+<23:46:48> ============================ Loading level example ============================
+<23:46:48> [Warning] Level does not have loading screen info
+<23:46:48> SetGlobalState 0->1 'INIT'->'LEVEL_LOAD_PREPARE' 622333.8 seconds
+<23:46:49> Loading Config file singleplayer.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\singleplayer.cfg)
+<23:46:49> Remote console listening on: 4600
+<23:46:49> SetGlobalState 1->2 'LEVEL_LOAD_PREPARE'->'LEVEL_LOAD_START' 0.4 seconds
+<23:46:49> Level system is loading "example"
+<23:46:49> SetGlobalState 2->3 'LEVEL_LOAD_START'->'LEVEL_LOAD_MATERIALS' 0.1 seconds
+<23:46:49> ==== Starting Loading Level Materials ====
+<23:46:49> [Warning] XML reader: Can't open file (%editor%/objects/envcube.mtl)
+<23:46:49> ==== Finished loading level Materials: 14  mtls loaded (0 from LevelCache) in 0.0 sec ====
+<23:46:49> ===== Loading all Decal materials from a folder: Materials/Decals/*.mtl =====
+<23:46:49> ==== Finished Loading Decal Materials: 0  mtls loaded in 0.0 sec ====
+<23:46:49> SetGlobalState 3->4 'LEVEL_LOAD_MATERIALS'->'LEVEL_LOAD_OBJECTS' 0.0 seconds
+<23:46:49> Starting loading level CGF's ...
+<23:46:49> [Warning] CGF Loading Failed: Failed to open file '%editor%/objects/envcube.cgf' [File=%editor%/objects/envcube.cgf]
+<23:46:49> [Error] Failed to load cgf: %editor%/objects/envcube.cgf
+<23:46:49> Finished loading level CGF's: 7 objects loaded (0 from LevelCache) in 0.0 sec
+<23:46:49> SetGlobalState 4->5 'LEVEL_LOAD_OBJECTS'->'LEVEL_LOAD_CHARACTERS' 0.0 seconds
+<23:46:49> Starting loading level characters ...
+<23:46:49> ===== Preloading Characters ====
+<23:46:49>   58 animation-assets loaded (total assets: 53)
+<23:46:49> ===== Finished Preloading 2 Characters in 0.20 seconds ====
+<23:46:49> ===== Preloading CGAs ====
+<23:46:49> ===== Finished Preloading 0 CGAs in 0.00 seconds ====
+<23:46:49> ===== Preloading CDFs ====
+<23:46:49> ===== Finished Preloading 1 CDFs in 0.00 seconds ====
+<23:46:49> Finished loading level characters (0.2 sec)
+<23:46:49> SetGlobalState 5->6 'LEVEL_LOAD_CHARACTERS'->'LEVEL_LOAD_STATIC_WORLD' 0.2 seconds
+<23:46:49> ===== Loading terrain\terrain.dat =====
+<23:46:49> Loading terrain layers for segment 0 ...
+<23:46:49>   Layer 0 - Materials/terrain has material materials/terrain
+<23:46:49> Constructing 21 terrain nodes (0.0 MB) <23:46:49>  done in 0.00 sec
+<23:46:49> ===== Loading 0 vegetation models =====
+<23:46:49> ===== Loading 3 brush models ===== 
+<23:46:49> ===== Loading 2 brush materials ===== 
+<23:46:49> ===== Initializing terrain nodes ===== 
+<23:46:49> ===== Loading outdoor instances ===== 
+<23:46:49> Opening terrain\cover.ctc ...
+<23:46:49>   TerrainLayer 0: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<23:46:49>   TerrainLayer 1: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<23:46:49>   RGB multiplier: 8, Texture indices: 5
+<23:46:49>   0 out of 21 nodes cleaned
+<23:46:49> ===== Loading terrain\indoor.dat =====
+<23:46:49> ===== Loading Particle Effects =====
+<23:46:49> ===== Loading mission settings from XML =====
+<23:46:49> ===== Load level physics data =====
+<23:46:49> ===== loading occlusion mesh =====
+<23:46:49> ===== Finished loading static world =====
+<23:46:49> SetGlobalState 6->7 'LEVEL_LOAD_STATIC_WORLD'->'LEVEL_LOAD_ENTITIES' 0.2 seconds
+<23:46:49> [Warning] XML reader: Can't open file (Scripts/AI/Cover.xml)
+<23:46:49> [Warning] AI: Failed to open XML file 'Scripts/AI/Cover.xml'...
+<23:46:49> [Warning] XML reader: Can't open file (Scripts/AI/Navigation.xml)
+<23:46:49> [Warning] AI: Failed to open XML file 'Scripts/AI/Navigation.xml'...
+<23:46:49> AI: [AISYSTEM] Initializing AI Actions.
+<23:46:49> AI: [AISYSTEM] Initializing Smart Objects.
+<23:46:49> [Warning] XML reader: Can't open file (Libs/SmartObjects.xml)
+<23:46:49> --- AI: Navigation Data Loaded in  0.01 sec
+<23:46:49> Parsing 6 entities...
+<23:46:50> SetGlobalState 7->8 'LEVEL_LOAD_ENTITIES'->'LEVEL_LOAD_PRECACHE' 0.3 seconds
+<23:46:50> SetGlobalState 8->9 'LEVEL_LOAD_PRECACHE'->'LEVEL_LOAD_TEXTURES' 0.0 seconds
+<23:46:50> -- Render thread was idle during level loading: 0.402 secs
+<23:46:50> -- Render thread was busy during level loading: 0.170 secs
+<23:46:50> -- Presort shaders by states...
+<23:46:50> --- 21 Resources, 1 Resource groups.
+<23:46:50> Requesting textures precache ...
+<23:46:50> Textures precache done.
+<23:46:50> SetGlobalState 9->10 'LEVEL_LOAD_TEXTURES'->'LEVEL_LOAD_END' 0.0 seconds
+<23:46:50> File access time during level loading: 0.15 seconds
+<23:46:50> SetGlobalState 10->11 'LEVEL_LOAD_END'->'LEVEL_LOAD_ENDING' 0.1 seconds
+<23:46:50> -- Precaching textures...
+<23:46:50> =============================== Loading textures ================================
+<23:46:50> Precaching progress: 1
+<23:46:50> Precaching progress: 2
+<23:46:50> Precaching progress: 3
+<23:46:50> Precaching progress: 4
+<23:46:50> Precaching progress: 5
+<23:46:50> Precaching progress: 6
+<23:46:50> Precaching progress: 7
+<23:46:50> Precaching progress: 8
+<23:46:50> Precaching progress: 9
+<23:46:50> ========================== Finished loading textures ============================
+<23:46:50> Precaching textures done in 0.02 seconds
+<23:46:50> SetGlobalState 11->12 'LEVEL_LOAD_ENDING'->'LEVEL_LOAD_COMPLETE' 0.3 seconds
+<23:46:50> Textures startup streaming finished in 0.3 sec
+<23:46:50> SetGlobalState 12->13 'LEVEL_LOAD_COMPLETE'->'RUNNING' 0.4 seconds
+<23:46:50> Average block size: 0 KB, Average throughput: 0.0 MB/sec, Jobs processed: 0 (0.0 MB), File IO Bandwidth: 0.00MB/s
+<23:46:51> -----------------------------------------------------
+<23:46:51> *LOADING: Level example loading time: 3.04 seconds
+<23:46:51> -----------------------------------------------------
+<23:46:51> [SAVE GAME] Quick-saving to 'example_.CSF' immediately - checkpoint="(null)"
+<23:46:52> Pre-caching render meshes for camera position
+<23:46:52> Updating level streaming priorities for 1 cameras (LevelFrameId = 102)
+<23:46:52> -- 70.275467 53.556171 34.550377
+<23:46:52> [Warning] [SHADERS] GCM Global Cache Miss: <2>DeferredShading@TiledDeferredShadingCS()(%_RT_SAMPLE1|%_RT_SAMPLE0|%_RT_SAMPLE4)(0)(0)(0)(0)(CS)
+<23:46:53>  Compile DeferredShading@TiledDeferredShadingCS(RT1000200000001000)(CS) (618 instructions, 26 tempregs, 17/17 constants) ... 
+<23:47:20> [CONSOLE] Executing console command 'quit'
+<23:47:20> CSystem::Quit invoked from thread 7272 (main is 7272)
+<23:47:20> Ending game context...
+<23:47:20> Destroying CActionGame instance 0000012ECA03C540 (level="example")
+<23:47:20> UnLoadLevel Start
+<23:47:21> CDefaultSkeleton Release: objects/characters/samplecharacter/skelproxy.chr
+<23:47:21> *** Start clearing render resources ***
+<23:47:21> Flushing pended shaders...
+<23:47:21> Finished flushing pended shaders...
+<23:47:21> *** Clearing render resources took 4.8 msec ***
+<23:47:21> *** Start clearing render resources ***
+<23:47:21> Flushing pended shaders...
+<23:47:21> Finished flushing pended shaders...
+<23:47:21>  
+<23:47:21>  
+<23:47:21>  
+<23:47:21>  
+<23:47:21>  
+<23:47:21>  
+<23:47:21>  
+<23:47:21> *** Clearing render resources took 57.3 msec ***
+<23:47:21> UnLoadLevel End: 0.2 sec
+<23:47:21> *** Init system render resources ***
+<23:47:21> [Warning] [CScriptSystem::BeginCall] Function OnShutdown not found(check for syntax errors or if the file wasn't loaded)
+<23:47:21> System Shutdown
+<23:47:22> Unloading CryFlowGraph.dll...
+<23:47:22> Unloading CryUserAnalytics.dll...
+<23:47:22> Unloading CryPerceptionSystem.dll...
+<23:47:22> Unloading CrySensorSystem.dll...
+<23:47:22> Unloading CryDefaultEntities.dll...
+<23:47:22> Unloading CryDynamicResponseSystem.dll...
+<23:47:22> *** Start clearing render resources ***
+<23:47:22> Flushing pended shaders...
+<23:47:22> Finished flushing pended shaders...
+<23:47:22> *** Clearing render resources took 0.6 msec ***
+<23:47:22> Unloading CryMovie.dll...
+<23:47:22> Unloading CryAISystem.dll...
+<23:47:22> Unloading CryFont.dll...
+<23:47:23> Unloading CryNetwork.dll...
+<23:47:23> Unloading CryAnimation.dll...
+<23:47:23> Unloading Cry3DEngine.dll...
+<23:47:23> *** Start clearing render resources ***
+<23:47:23> Flushing pended shaders...
+<23:47:23> Finished flushing pended shaders...
+<23:47:23> *** Clearing render resources took 0.6 msec ***
+<23:47:23> Unloading CrySchematyc.dll...
+<23:47:23> Unloading CryEntitySystem.dll...
+<23:47:23> Unloading CryPhysics.dll...
+<23:47:23> Unloading CryRenderD3D11.dll...
+DXInput Shutdown
+Unloading CryInput.dll...
+Unloading CryScriptSystem.dll...
+Unloading CryAudioSystem.dll...
+Unloading CryAudioImplSDLMixer.dll...
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\cryasset.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\engine.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\shadercache.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\shadercachestartup.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\shadersbin.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\shaders.pak
+Project Hyphearia
+Using Project Folder C:/Users/XTC/Documents/GitHub/cryengine_test/Hyphearia
+Using Engine Folder C:\Program Files (x86)\Crytek\CRYENGINE Launcher\Crytek\CRYENGINE_5.4\
+Using Asset Folder C:/Users/XTC/Documents/GitHub/cryengine_test/Hyphearia/Assets
+
+Total number of logical processors: 4
+Number of available logical processors: 4
+Total number of system cores: 4
+Number of cores available to process: 4
+ 
+Processor 0:
+  CPU: Intel Intel(R) Core(TM) i5 CPU         750  @ 2.67GHz
+  Family: 6, Model: 14, Stepping: 5
+  FPU: On-Chip
+  Features: SSE, SSE2, SSE3, SSE4.2
+  Serial number not present or disabled
+ 
+Processor 1:
+  CPU: Intel Intel(R) Core(TM) i5 CPU         750  @ 2.67GHz
+  Family: 6, Model: 14, Stepping: 5
+  FPU: On-Chip
+  Features: SSE, SSE2, SSE3, SSE4.2
+  Serial number not present or disabled
+ 
+Processor 2:
+  CPU: Intel Intel(R) Core(TM) i5 CPU         750  @ 2.67GHz
+  Family: 6, Model: 14, Stepping: 5
+  FPU: On-Chip
+  Features: SSE, SSE2, SSE3, SSE4.2
+  Serial number not present or disabled
+ 
+Processor 3:
+  CPU: Intel Intel(R) Core(TM) i5 CPU         750  @ 2.67GHz
+  Family: 6, Model: 14, Stepping: 5
+  FPU: On-Chip
+  Features: SSE, SSE2, SSE3, SSE4.2
+  Serial number not present or disabled
+ 
+<03:08:53> [Warning] [CVARS]: [CHANGED] variable [sys_asserts] from [1] to [0]; Marked as [VF_CHEAT]
+<03:08:53> [Warning] Modifying marked variables will not be allowed in Release mode!
+<03:08:53> [Warning] [CVARS]: [CHANGED] variable [sys_asserts] from [1] to [0]; Marked as [VF_CHEAT]
+<03:08:53> [Warning] Modifying marked variables will not be allowed in Release mode!
+<03:08:53> creating CVarGroups from directory 'assets/Config/CVarGroups' ...
+<03:08:53> creating CVarGroups from directory 'Config/CVarGroups' ...
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_full.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_full.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_gameeffects.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_gameeffects.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_light.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_light.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_objectdetail.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_objectdetail.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_particles.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_particles.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_physics.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_physics.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_postprocessing.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_postprocessing.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_quality.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_quality.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_shading.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_shading.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_shadows.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_shadows.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_sound.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_sound.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_texture.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_texture.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_textureresolution.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_textureresolution.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_volumetriceffects.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_volumetriceffects.cfg)
+<03:08:53> Loading Config file Config/CVarGroups/sys_spec_water.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\config\cvargroups\sys_spec_water.cfg)
+<03:08:53> [Warning] <ThreadConfigInfo>: Active platform identifier string "pc" not found in config "%engine%/config/engine_core.thread_config".
+<03:08:53> Windows 10 64 bit (build 10.0.15063)
+<03:08:53> User name: "XTC"
+<03:08:53> System language: German
+<03:08:53> Windows Directory: "C:\WINDOWS"
+<03:08:53> Local time is 03:08:53 10/21/17, system running for 586 minutes
+<03:08:53> 16376MB physical memory installed, 10930MB available, 134217727MB virtual memory installed, 33 percent of memory in use
+<03:08:53> PageFile usage: 38MB, Working Set: 32MB, Peak PageFile usage: 38MB,
+<03:08:53> Current display mode is 1920x1080x32, (Unknown graphics card)
+<03:08:53> IBM enhanced (101/102-key) keyboard and 16+ button mouse installed
+<03:08:53> --------------------------------------------------------------------------------
+<03:08:53> [Warning] Config file %USER%/game.cfg not found!
+<03:08:53> Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\system.cfg)
+<03:08:53> [Warning] [CVARS]: [CHANGED] variable [sys_asserts] from [0] to [0]; Marked as [VF_CHEAT]
+<03:08:53> [Warning] Modifying marked variables will not be allowed in Release mode!
+<03:08:53> [Warning] Config file user.cfg not found!
+<03:08:53> Stream Engine Initialization
+<03:08:53> BuildTime: Sep 20 2017 16:39:13
+<03:08:53> Physics initialization
+<03:08:53> Loading Module CryPhysics.dll...
+<03:08:53> Initializing CryPhysics done, MemUsage=836Kb
+<03:08:53> [Warning] Cannot open Pak file assets\localization\english_xml.pak
+<03:08:53> Localized language content(english) not available or modified from the original installation.
+<03:08:53> [Warning] Cannot open Pak file assets\localization\english.pak
+<03:08:53> Localized language content(english) not available or modified from the original installation.
+<03:08:53> [Warning] Cannot open Pak file assets\localization\english.pak
+<03:08:53> Localized language content(english) not available or modified from the original installation.
+<03:08:53> [Error] <Localization> No localization files found!
+<03:08:53> <Audio>: AudioSystem initialization
+<03:08:53> Loading Module CryAudioSystem.dll...
+<03:08:54> <Audio> <0.681>: CryAudioImplSDLMixer loaded
+<03:08:54> Initializing CryAudioSystem done, MemUsage=5892Kb
+<03:08:54> Renderer initialization
+<03:08:54> Logging video adapters:
+<03:08:54> - NVIDIA GeForce GTX 770 (vendor = 0x10de, device = 0x1184)
+<03:08:54>   - Adapter index: 0
+<03:08:54>   - Dedicated video memory: 4063 MB
+<03:08:54>   - Feature level: D3D 11_0 (SM 5.0)
+<03:08:54>   - Displays connected: yes
+<03:08:54>   - Suitable rendering device: yes
+<03:08:54> - Microsoft Basic Render Driver (vendor = 0x1414, device = 0x008c)
+<03:08:54>   - Adapter index: 1
+<03:08:54>   - Dedicated video memory: 0 MB
+<03:08:54>   - Feature level: D3D 11_1 (SM 5.x)
+<03:08:54>   - Displays connected: no
+<03:08:54>   - Suitable rendering device: no
+<03:08:54> Loading Module CryRenderD3D11.dll...
+<03:08:54> CRenderer sizeof(Vec2f16)=4 sizeof(Vec3f16)=8
+<03:08:54> Initializing CryRenderD3D11 done, MemUsage=3300Kb
+<03:08:54> Initializing Direct3D and creating game window:
+<03:08:54> Direct3D driver is creating...
+<03:08:54> Crytek Direct3D driver version 3.00 (Sep 20 2017 <16:40:13>)
+<03:08:54> Creating window called 'Hyphearia' (1280x678)
+<03:08:54> D3D Adapter: Description: NVIDIA GeForce GTX 770
+<03:08:54> D3D Adapter: Driver version (UMD): 0.00.00.0000
+<03:08:54> D3D Adapter: VendorId = 0x10DE
+<03:08:54> D3D Adapter: DeviceId = 0x1184
+<03:08:54> D3D Adapter: SubSysId = 0x118410B0
+<03:08:54> D3D Adapter: Revision = 161
+<03:08:54> NVAPI: API init ok (0)
+<03:08:54> NVAPI: Single GPU system
+<03:08:54> NVDBT supported
+<03:08:54> D3D Detected: NVIDIA video card
+<03:08:54> Active GPUs: 1
+<03:08:54> Using pixel texture formats:
+<03:08:54>   R8G8B8A8S, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R8G8B8A8, mips, sRGB, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   A8, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R8, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R8S, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R16, mips, RT (blendable) (multi-sampled), sample (comparable), gather (comparable)
+<03:08:54>   R16S, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R16F, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R32F, mips, RT (blendable) (multi-sampled), sample (comparable), gather (comparable)
+<03:08:54>   R8G8, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R8G8S, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R16G16, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R16G16S, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R16G16F, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R32G32F, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R11G11B10F, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R10G10B10A2, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R16G16B16A16, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R16G16B16A16S, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R16G16B16A16F, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   R32G32B32A32F, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   BC1, mips, sRGB, sample, gather
+<03:08:54>   BC2, mips, sRGB, sample, gather
+<03:08:54>   BC3, mips, sRGB, sample, gather
+<03:08:54>   BC4, mips, sample, gather
+<03:08:54>   BC4S, mips, sample, gather
+<03:08:54>   BC5, mips, sample, gather
+<03:08:54>   BC5S, mips, sample, gather
+<03:08:54>   BC6UH, mips, sample, gather
+<03:08:54>   BC6SH, mips, sample, gather
+<03:08:54>   BC7, mips, sRGB, sample, gather
+<03:08:54>   R9G9B9E5, mips, sample, gather
+<03:08:54>   D32FS8 (R32G8T), mips, DS (multi-sampled)
+<03:08:54>   D32F (R32T), mips, DS (multi-sampled)
+<03:08:54>   D24S8 (R24G8T), mips, DS (multi-sampled)
+<03:08:54>   D16 (R16T), mips, DS (multi-sampled)
+<03:08:54>   B5G6R5, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   B5G5R5, mips, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   B4G4R4A4, mips, sample, gather
+<03:08:54>   B8G8R8A8, mips, sRGB, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>   B8G8R8X8, mips, sRGB, RT (blendable) (multi-sampled), sample, gather
+<03:08:54>  Renderer DepthBits: 24
+<03:08:54>  ****** CryRender InfoDump ******
+<03:08:54>  Driver description: NVIDIA GeForce GTX 770
+<03:08:54>  API Version: Direct3D 11.0
+<03:08:54>  Feature level: D3D 11_0
+<03:08:54>  Vertex Shaders version 5.0
+<03:08:54>  Pixel Shaders version 5.0
+<03:08:54>  Full stats: 
+<03:08:54>  Rasterizer: Hardware
+<03:08:54>  Current Resolution: 1280x678x32 Windowed
+<03:08:54>  HDR Rendering: FP16
+<03:08:54>  Occlusion queries: Supported
+<03:08:54>  Geometry instancing: Supported
+<03:08:54>  NormalMaps compression : Supported
+<03:08:54>  Gamma control: Hardware
+<03:08:54>  Used GeomInstancingThreshold is 8
+<03:08:54>  Shader model usage: 'SM.5.0'
+<03:08:54>  *****************************************
+<03:08:54>  
+<03:08:54> Init Shaders
+<03:08:54>  General shader quality: Medium
+<03:08:54>  Metal shader quality: Medium
+<03:08:54>  Glass shader quality: Medium
+<03:08:54>  Vegetation shader quality: Medium
+<03:08:54>  Ice shader quality: Medium
+<03:08:54>  Terrain shader quality: Medium
+<03:08:54>  Shadow shader quality: Medium
+<03:08:54>  Water shader quality: Medium
+<03:08:54>  FX shader quality: Medium
+<03:08:54>  PostProcess shader quality: Medium
+<03:08:54>  HDR shader quality: Medium
+<03:08:54>  Sky shader quality: Medium
+<03:08:54> Render quality: VeryHigh
+<03:08:54> Init textures management (4063 Mb of video memory is available)...
+<03:08:54>   Enabling of textures streaming...
+<03:08:54>   Using 1536 Mb of textures pool for streaming...
+<03:08:54>   Video textures: Atlas clouds max size: 32 Mb
+<03:08:54>   Video textures: Atlas sprites max size: 32 Mb
+<03:08:54>   Video textures: Dynamic managed max size: 48 Mb
+<03:08:54>   Reloading all textures...
+<03:08:54>   Finished reloading textures...
+<03:08:54>   Finished initializing textures streaming...
+<03:08:54> Initialized hardware mouse (game is allowed to confine mouse to window)
+<03:08:54> CryMonoBridge initialization
+<03:08:54> Loading Module CryMonoBridge.dll...
+<03:08:54> [Mono] Initialize Mono Runtime . . . 
+<03:08:54> [Mono] Debugger server active on port: 17615
+<03:08:54> [Mono] Initialization done.
+<03:08:54> Initializing CryMonoBridge done, MemUsage=5568Kb
+<03:08:54> Loading plug-in CryDefaultEntities
+<03:08:54> Loading plug-in CrySensorSystem
+<03:08:54> Loading plug-in CryPerceptionSystem
+<03:08:54> Loading plug-in bin/Game.dll
+<03:08:54> Loading plug-in CryUserAnalytics
+<03:08:54> Initializing CryScaleformHelper done, MemUsage=4Kb
+<03:08:54> Using Scaleform GFx 3.3.94
+<03:08:54>   Using dynamic pool
+<03:08:54> [Warning] Texture does not exist [File=libs/ui/textures/startscreen.dds]
+<03:08:54> [Warning] Invalid splash screen texture
+<03:08:54> Font initialization
+<03:08:54> Loading Module CryFont.dll...
+<03:08:54> Using FreeType 2.5.5
+<03:08:54> Initializing CryFont done, MemUsage=264Kb
+<03:08:55> *** Init system render resources ***
+<03:08:55> Network initialization
+<03:08:55> Loading Module CryNetwork.dll...
+<03:08:55> [LagProfiles] Could not load "". 6 default profiles activated.
+<03:08:55> [Error] Scheduler policy name should not exceed 4 characters.
+<03:08:55> [net] Socket IO management: External [iocp], Internal [iocp]
+<03:08:55> network hostname: DESKTOP-1GUDER2
+<03:08:55>   ip:192.168.2.102
+<03:08:55> [Network Version]: PROFILE DEVELOPMENT BUILD
+<03:08:55> Initializing CryNetwork done, MemUsage=2088Kb
+<03:08:55> MovieSystem initialization
+<03:08:55> Loading Module CryMovie.dll...
+<03:08:55> Initializing CryMovie done, MemUsage=556Kb
+<03:08:55> Console initialization
+<03:08:55> Time initialization
+<03:08:55> Input initialization
+<03:08:55> Loading Module CryInput.dll...
+<03:08:55> Initializing DirectInput
+<03:08:55> Initializing Keyboard
+<03:08:55> Input locale changed to 00000407
+<03:08:55> Initializing mouse
+<03:08:55> Initializing CryInput done, MemUsage=840Kb
+<03:08:55>  
+<03:08:55>     con_debug = 0 []
+<03:08:55>     con_display_last_messages = 0 []
+<03:08:55>     con_line_buffer_size = 1000 []
+<03:08:55>     con_restricted = 0 [RESTRICTEDMODE]
+<03:08:55>     con_showonload = 0 []
+<03:08:55>  
+<03:08:55>     con_debug = 0 []
+<03:08:55>     con_display_last_messages = 0 []
+<03:08:55>     con_line_buffer_size = 1000 []
+<03:08:55>     con_restricted = 0 [RESTRICTEDMODE]
+<03:08:55>     con_showonload = 0 []
+<03:08:55>  
+<03:08:55>     con_debug = 0 []
+<03:08:55>  
+<03:08:55>     con_debug = 0 []
+<03:08:55> Initializing Animation System
+<03:08:55> Loading Module CryAnimation.dll...
+<03:08:55> [Warning] [CVARS]: [CHANGED] variable [ca_UseIMG_CAF] from [1] to [0]; Marked as [VF_CONST_CVAR] [VF_CHEAT]
+<03:08:55> [Warning] Modifying marked variables will not be allowed in Release mode!
+<03:08:55> [Warning] [CVARS]: [CHANGED] variable [ca_UseIMG_CAF] from [1] to [0]; Marked as [VF_CONST_CVAR] [VF_CHEAT]
+<03:08:55> [Warning] Modifying marked variables will not be allowed in Release mode!
+<03:08:55> Initializing CryAnimation done, MemUsage=900Kb
+<03:08:55> Initializing 3D Engine
+<03:08:55> Loading Module Cry3DEngine.dll...
+<03:08:55> [Warning] [CVARS]: [CHANGED] variable [e_WaterOcean] from [1] to [0]; Marked as [VF_CONST_CVAR] [VF_CHEAT]
+<03:08:55> [Warning] Modifying marked variables will not be allowed in Release mode!
+<03:08:55> [Warning] [CVARS]: [CHANGED] variable [e_WaterOcean] from [1] to [0]; Marked as [VF_CONST_CVAR] [VF_CHEAT]
+<03:08:55> [Warning] Modifying marked variables will not be allowed in Release mode!
+<03:08:55> Sky light: Optical lookup tables loaded off disc.
+<03:08:55> Initializing Cry3DEngine done, MemUsage=2580Kb
+<03:08:55> Script System Initialization
+<03:08:55> Loading Module CryScriptSystem.dll...
+<03:08:55> [Warning] [Lua Error] Failed to load script file scripts/common.lua
+<03:08:55> Initializing CryScriptSystem done, MemUsage=736Kb
+<03:08:55> Schematyc initialization
+<03:08:55> Loading Module CrySchematyc.dll...
+<03:08:55> Initializing CrySchematyc done, MemUsage=1576Kb
+<03:08:55> Entity system initialization
+<03:08:55> Loading Module CryEntitySystem.dll...
+<03:08:55> Initializing CryEntitySystem done, MemUsage=1964Kb
+<03:08:55> LiveCreate initialization
+<03:08:55> LiveCreateHost not created, using NULL implementation.
+<03:08:55> Dynamic Response System initialization
+<03:08:55> Loading Module CryDynamicResponseSystem.dll...
+<03:08:55> Initializing CryDynamicResponseSystem done, MemUsage=552Kb
+<03:08:55> Loading Module CryFlowGraph.dll...
+<03:08:55> Successfully registered flownode 'AI:PerceptionState'
+<03:08:55> Successfully registered flownode 'AI:EventListener'
+<03:08:55> Initializing CryFlowGraph done, MemUsage=1012Kb
+<03:08:55> AI initialization
+<03:08:55> Loading Module CryAISystem.dll...
+<03:08:55> Initializing CryAISystem done, MemUsage=1408Kb
+<03:08:55> Initializing AI System
+<03:08:55> AI: [AISYSTEM] Initialization started.
+<03:08:55> [Warning] XML reader: Can't open file (Scripts/AI/Communication/CommunicationSystemConfiguration.xml)
+<03:08:55> [Warning] AI: Failed to open XML file 'Scripts/AI/Communication/CommunicationSystemConfiguration.xml'...
+<03:08:55> [Warning] XML reader: Can't open file (Scripts/AI/lookup.xml)
+<03:08:55> [Warning] [Lua Error] Failed to load script file scripts/ai/aiconfig.lua
+<03:08:55> Registering CentralInterestManager with EntitySystem
+<03:08:55> [Warning] XML reader: Can't open file (Libs/AITargetStimulusConfig.xml)
+<03:08:55> [Warning] AI: CTargetTrackManager::Init() Warning: Failed to load configuration file 'Libs/AITargetStimulusConfig.xml'
+<03:08:55> AI: [AISYSTEM] Initialization finished.
+<03:08:55> Initializing additional systems
+<03:08:55> OnSysSpecChange(0)
+<03:08:55> [Warning] XML reader: Can't open file (Libs/Levels/leveltypes.xml)
+<03:08:55> [Warning] XML reader: Can't open file (Libs/FlowNodes/DialogFlowNodeBuffers.xml)
+<03:08:55> [Warning] CDialogFlowNodeMgr::Init() - Failed to load 'Libs/FlowNodes/DialogFlowNodeBuffers.xml'. dialog flownode buffers disabled.
+<03:08:55> [Warning] [Lua Error] Failed to load script file Scripts/Entities/Vehicles/VehicleSystem.lua
+<03:08:55> [Warning] XML reader: Can't open file (Libs/Readability/Faces/Faces.xml)
+<03:08:55> [Warning] XML reader: Can't open file (Scripts/Network/StatsConfig.xml)
+<03:08:55> [Warning] [Lua Error] Failed to load script file Scripts/Entities/Vehicles/VehiclePartDetached.lua
+<03:08:55> Ending game context...
+<03:08:55> [Warning] XML reader: Can't open file (Libs/GameForceFeedback/ForceFeedbackEffects.xml)
+<03:08:55> [Warning] [ForceFeedback System] Could not load force feedback system data. Invalid XML file 'Libs/GameForceFeedback/ForceFeedbackEffects.xml'! 
+<03:08:55> Initializing default materials...
+<03:08:55> [Warning] XML reader: Can't open file (materials/material_layers_default.mtl)
+<03:08:55> [Warning] [Lua Error] Failed to load script file scripts/main.lua
+<03:08:55> [Warning] [CScriptSystem::BeginCall] Function OnInit not found(check for syntax errors or if the file wasn't loaded)
+<03:08:56> [Warning] Could not load dialog file assets\Libs\DynamicResponseSystem\DialogLines/dialoglines.dialog
+<03:08:56> [MFX] Loading FXLib 'collision' ...
+<03:08:56> [Schematyc]: Loading...
+<03:08:56> [Schematyc]: Loading settings
+<03:08:56> [Warning] XML reader: Can't open file (assets/cryschematycsettings/log_settings.sc_settings)
+<03:08:56> [Schematyc]: Loading scripts
+<03:08:56> [Schematyc]: Compiling scripts
+<03:08:56> [Schematyc]: Loading complete
+<03:08:56> [CONSOLE] Executing console command 'exec autoexec.cfg'
+<03:08:56> Executing console batch file (try game,config,root): "autoexec.cfg" not found!
+<03:08:56> Flushing pended shaders...
+<03:08:56> Finished flushing pended shaders...
+<03:08:56> Flushing pended shaders...
+<03:08:56> Finished flushing pended shaders...
+<03:08:56> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<03:08:56> Allocate render buffer for particles (16384 verts, 49152 tris)...
+<03:08:56> Flushing pended textures...
+<03:08:56> Finished flushing pended textures...
+<03:08:56> [CONSOLE] Executing console command 'map example'
+<03:08:56> [Warning] Couldn't find map 'example'
+<03:08:56> Remote console listening on: 4600
+<03:10:08> [CONSOLE] Executing console command 'quit'
+<03:10:08> CSystem::Quit invoked from thread 11472 (main is 11472)
+<03:10:08> Ending game context...
+<03:10:09> [Warning] [CScriptSystem::BeginCall] Function OnShutdown not found(check for syntax errors or if the file wasn't loaded)
+<03:10:09> System Shutdown
+<03:10:13> Unloading CryFlowGraph.dll...
+<03:10:13> Unloading CryUserAnalytics.dll...
+<03:10:13> Unloading CryPerceptionSystem.dll...
+<03:10:13> Unloading CrySensorSystem.dll...
+<03:10:13> Unloading CryDefaultEntities.dll...
+<03:10:13> Unloading CryDynamicResponseSystem.dll...
+<03:10:13> *** Start clearing render resources ***
+<03:10:13> Flushing pended shaders...
+<03:10:13> Finished flushing pended shaders...
+<03:10:13> *** Clearing render resources took 0.7 msec ***
+<03:10:13> Unloading CryMovie.dll...
+<03:10:13> Unloading CryAISystem.dll...
+<03:10:13> Unloading CryFont.dll...
+<03:10:13> Unloading CryNetwork.dll...
+<03:10:13> Unloading CryAnimation.dll...
+<03:10:13> Unloading Cry3DEngine.dll...
+<03:10:13> *** Start clearing render resources ***
+<03:10:13> Flushing pended shaders...
+<03:10:13> Finished flushing pended shaders...
+<03:10:13> *** Clearing render resources took 0.7 msec ***
+<03:10:13> Unloading CrySchematyc.dll...
+<03:10:13> Unloading CryEntitySystem.dll...
+<03:10:13> Unloading CryPhysics.dll...
+<03:10:13> Unloading CryRenderD3D11.dll...
+DXInput Shutdown
+Unloading CryInput.dll...
+Unloading CryScriptSystem.dll...
+Unloading CryAudioSystem.dll...
+Unloading CryAudioImplSDLMixer.dll...
+Closing PAK file: assets\objects-part0.pak
+Closing PAK file: assets\objects-part1.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\cryasset.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\engine.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\shadercache.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\shadercachestartup.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\shadersbin.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\textures.pak
+Closing PAK file: c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.4\engine\shaders.pak

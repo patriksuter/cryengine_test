@@ -1,0 +1,18 @@
+<ObjectLayer>
+ <Layer Name="Flat" FullName="Pier/Flat" GUID="49750635-cb7d-0294-38e7-5481d9d652a4" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="da703ad2-9e83-d6db-0a04-de41fdf4a3ce">
+  <LayerObjects>
+   <Object Type="Brush" Layer="Flat" LayerGUID="49750635-cb7d-0294-38e7-5481d9d652a4" Id="1b319d25-0d63-4912-8204-1b76f7caa2ba" Name="woodpath_pillars_4m-13" Pos="1122.1146,1016.98,21.562677" FloorNumber="-1" Rotate="0.86401033,0,0,-0.50347406" ColorRGB="16777215" MinSpec="2" MatLayersMask="0" Prefab="Objects/architecture/paths/wooden_pathway/woodpath_8m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1644168200">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Flat" LayerGUID="49750635-cb7d-0294-38e7-5481d9d652a4" Id="0e7fdf76-21c3-9d6d-dd5e-951f2d9882f9" Name="woodpath_pillars_4m-21" Pos="1120.146,1020.4539,21.562677" FloorNumber="-1" Rotate="0.86401033,0,0,-0.50347406" ColorRGB="16777215" MinSpec="2" MatLayersMask="0" Prefab="Objects/architecture/paths/wooden_pathway/woodpath_8m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1644168200">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Flat" LayerGUID="49750635-cb7d-0294-38e7-5481d9d652a4" Id="d30d59c5-9507-e446-6b9f-f085c21d47f7" Name="woodpath_pillars_4m-25" Pos="1126.0601,1010.0177,21.562677" FloorNumber="-1" Rotate="0.86401033,0,0,-0.50347406" ColorRGB="16777215" MinSpec="2" MatLayersMask="0" Prefab="Objects/architecture/paths/wooden_pathway/woodpath_8m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1644168200">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Flat" LayerGUID="49750635-cb7d-0294-38e7-5481d9d652a4" Id="e83c9f79-951d-f054-8323-e17ea165e8a2" Name="woodpath_pillars_4m-26" Pos="1130.0024,1003.0609,21.562677" FloorNumber="-1" Rotate="0.86401033,0,0,-0.50347406" ColorRGB="16777215" MinSpec="2" MatLayersMask="0" Prefab="Objects/architecture/paths/wooden_pathway/woodpath_8m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1644168200">
+    <CollisionFiltering />
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

@@ -1,0 +1,18 @@
+<ObjectLayer>
+ <Layer Name="Shelter" FullName="FishingHouse/Shelter" GUID="0b0bb161-3241-0d90-4ab0-f08c358293ca" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="6fea63d4-4753-39b0-e142-f571a7e80a0b">
+  <LayerObjects>
+   <Object Type="Brush" Layer="Shelter" LayerGUID="0b0bb161-3241-0d90-4ab0-f08c358293ca" Id="8d5be189-0047-1546-87f1-9220dfada982" Name="fishing_house_shelter-1" Pos="1172.4017,936.88647,43.00806" FloorNumber="-1" Rotate="0.90234363,0,0,0.43101737" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/buildings/fishing_houses/fishing_house_shelter.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Shelter" LayerGUID="0b0bb161-3241-0d90-4ab0-f08c358293ca" Id="eccc4de4-3daf-5cd0-bc9d-8609e5c18b2a" Name="barrel-4" Pos="1171.9063,937.32074,43.064289" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/buildings/fishing_houses/barrel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Shelter" LayerGUID="0b0bb161-3241-0d90-4ab0-f08c358293ca" Id="599b5ad2-4c7a-7e7f-06e6-2b3444695773" Name="fishing_house_shelter-2" Pos="1171.3933,935.52985,43.00806" FloorNumber="-1" Rotate="-0.4309164,0,0,0.90239185" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/buildings/fishing_houses/fishing_house_shelter.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Shelter" LayerGUID="0b0bb161-3241-0d90-4ab0-f08c358293ca" Id="51819e36-e057-c047-9bcc-7e0c7927aa27" Name="barrel-5" Pos="1172.9026,936.26263,43.324978" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" MatLayersMask="0" Prefab="Objects/architecture/buildings/fishing_houses/barrel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610613768">
+    <CollisionFiltering />
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
