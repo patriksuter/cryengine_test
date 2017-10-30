@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Pillars" FullName="Pier/Pillars" GUID="d08446a8-f9d9-99f2-d27d-092561e246f3" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="da703ad2-9e83-d6db-0a04-de41fdf4a3ce">
+ <Layer Name="Pillars" FullName="Pier/Pillars" GUID="d08446a8-f9d9-99f2-d27d-092561e246f3" Hidden="0" Frozen="1" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" ParentGUID="5be0d734-8ba2-ce64-139f-cf5e6b3e57a0">
   <LayerObjects>
    <Object Type="Brush" Layer="Pillars" LayerGUID="d08446a8-f9d9-99f2-d27d-092561e246f3" Id="17eab6e3-c16e-4182-6766-a7076291d071" Name="woodpath_pillars_4m-3" Pos="1124.0658,1013.5042,21.557472" FloorNumber="-1" Rotate="0.86323047,0.00079584919,0.00046540529,-0.5048092" ColorRGB="16777215" MinSpec="2" MatLayersMask="0" Prefab="Objects/architecture/paths/wooden_pathway/woodpath_pillars_4m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1644168200">
     <CollisionFiltering />

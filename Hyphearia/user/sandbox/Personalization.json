@@ -158,7 +158,20 @@
         "favorites": [
         ],
         "history": [
-            "/Textures"
+            "/Textures",
+            "/Objects/natural/trees/jungle_tree_large",
+            "/Objects/natural/trees/palm_tree",
+            "/Objects/natural/trees/aspen",
+            "/Objects/natural/trees/pine",
+            "/Objects/natural/trees/meadow",
+            "/Objects/natural/ground/forestgrass",
+            "/Objects/natural/ground/grass",
+            "/Objects/natural/ground/ground_leaves",
+            "/Objects/natural/ground/mushrooms",
+            "/Objects/natural/ground/forest_ground",
+            "/Objects/natural/trees/river_tree",
+            "/Objects/natural/trees/twisted_tree",
+            "/Objects/natural/woodland"
         ]
     },
     "FavoritesHelper": {

@@ -70,11 +70,188 @@
   <Path>objects/architecture/paths/wooden_pathway/woodpath_8m_lod1.cgf</Path>
   <Path>objects/architecture/paths/wooden_pathway/woodpath_8m_lod2.cgf</Path>
   <Path>objects/architecture/paths/wooden_pathway/woodpath_pillars_4m.cgf</Path>
+  <Path>objects/characters/animals/deer/antlers.cgf</Path>
+  <Path>objects/characters/animals/deer/antlers_lod1.cgf</Path>
+  <Path>objects/characters/animals/deer/antlers_lod2.cgf</Path>
+  <Path>objects/characters/animals/deer/antlers_lod3.cgf</Path>
+  <Path>objects/characters/animals/deer/antlers_lod4.cgf</Path>
+  <Path>objects/characters/animals/deer/deer_mat.mtl</Path>
+  <Path>objects/characters/animals/deer/deer_model.cgf</Path>
+  <Path>objects/characters/animals/deer/deer_model_lod1.cgf</Path>
+  <Path>objects/characters/animals/deer/deer_model_lod2.cgf</Path>
+  <Path>objects/characters/animals/deer/texture/deer_ddn.dds</Path>
+  <Path>objects/characters/animals/deer/texture/deer_dif.dds</Path>
+  <Path>objects/characters/animals/deer/texture/deer_spec.dds</Path>
+  <Path>objects/characters/animals/fish/fresh_water/trout.mtl</Path>
+  <Path>objects/characters/animals/fish/fresh_water/trout_a.cgf</Path>
+  <Path>objects/characters/animals/fish/fresh_water/trout_b.cgf</Path>
+  <Path>objects/characters/animals/fish/fresh_water/trout_diff.dds</Path>
+  <Path>objects/characters/animals/fish/tropical_fish/textures/tropical_fish01.dds</Path>
+  <Path>objects/characters/animals/fish/tropical_fish/textures/tropical_fish02.dds</Path>
+  <Path>objects/characters/animals/fish/tropical_fish/tropical_fish01.cgf</Path>
+  <Path>objects/characters/animals/fish/tropical_fish/tropical_fish01.mtl</Path>
+  <Path>objects/characters/animals/fish/tropical_fish/tropical_fish02.cgf</Path>
+  <Path>objects/characters/animals/fish/tropical_fish/tropical_fish02.mtl</Path>
+  <Path>objects/characters/human/eyes/generic_eyeball_cornea_ddn.dds</Path>
+  <Path>objects/characters/human/eyes/generic_eyeball_iris_ddn.dds</Path>
+  <Path>objects/characters/human/eyes/generic_eyeball_iris_depth_ddn.dds</Path>
+  <Path>objects/characters/human/eyes/generic_eyeball_iris_diff.dds</Path>
+  <Path>objects/characters/human/eyes/generic_eyeball_iris_displ.dds</Path>
+  <Path>objects/characters/human/eyes/generic_eyeball_iris_sss.dds</Path>
+  <Path>objects/characters/human/eyes/generic_eyeball_overlay_diff.dds</Path>
+  <Path>objects/characters/human/eyes/generic_eyeball_overlay_spec.dds</Path>
+  <Path>objects/characters/human/eyes/generic_eyeball_water_spec.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/cultist_broken_eyeball.cgf</Path>
+  <Path>objects/characters/human/heads/cultist_head/cultist_broken_eyeball.mtl</Path>
+  <Path>objects/characters/human/heads/cultist_head/cultist_head.cgf</Path>
+  <Path>objects/characters/human/heads/cultist_head/cultist_head_angry.cgf</Path>
+  <Path>objects/characters/human/heads/cultist_head/cultist_head_angry.mtl</Path>
+  <Path>objects/characters/human/heads/cultist_head/cultist_head_default.mtl</Path>
+  <Path>objects/characters/human/heads/cultist_head/cultist_teeth.cgf</Path>
+  <Path>objects/characters/human/heads/cultist_head/cultist_teeth.mtl</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/cultist_head_angry_ddna.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/cultist_head_angry_diff.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/cultist_head_angry_spec.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/cultist_head_ddna.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/cultist_head_diff.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/cultist_head_eyebrows_diff.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/cultist_head_eyeoverlay_diff.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/cultist_head_eyeoverlay_spec.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/cultist_head_spec.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/cultist_head_sss.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/teeth_ddna.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/teeth_diff.dds</Path>
+  <Path>objects/characters/human/heads/cultist_head/textures/teeth_spec.dds</Path>
+  <Path>objects/characters/human/heads/head_a/background.cgf</Path>
+  <Path>objects/characters/human/heads/head_a/head_a.cgf</Path>
+  <Path>objects/characters/human/heads/head_a/mat_head_a.mtl</Path>
+  <Path>objects/characters/human/heads/head_a/textures/background_gradiant.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_ddna.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_diff.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_eyeball_iris_diff.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_eyelash_diff.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_hair_stubble_diff.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_plate_ddn.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_plate_diff.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_plate_dr_ddn.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_plate_spec.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_spec.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_sss.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_turtleneck_ddna.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_turtleneck_diff.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_wrinkle_atlas.dds</Path>
+  <Path>objects/characters/human/heads/head_a/textures/head_a_wrinkle_mask_diff.dds</Path>
+  <Path>objects/characters/human/heads/psycho/psycho_face.dds</Path>
+  <Path>objects/characters/human/heads/psycho/psycho_face_ddna.dds</Path>
+  <Path>objects/characters/human/heads/psycho/psycho_face_diff.dds</Path>
+  <Path>objects/characters/human/heads/psycho/psycho_face_spec.dds</Path>
+  <Path>objects/characters/human/heads/psycho/psycho_face_wrinkle_ao.dds</Path>
+  <Path>objects/characters/human/heads/psycho/psycho_face_wrinkle_ddn.dds</Path>
+  <Path>objects/characters/human/heads/psycho/psycho_face_wrinkle_mask.dds</Path>
+  <Path>objects/characters/human/heads/psycho/psycho_hair.dds</Path>
+  <Path>objects/characters/human/heads/psycho/psycho_head.cgf</Path>
+  <Path>objects/characters/human/heads/psycho/psycho_head.mtl</Path>
+  <Path>objects/characters/human/teeth/generic_teeth_ddna.dds</Path>
+  <Path>objects/characters/human/teeth/generic_teeth_diff.dds</Path>
+  <Path>objects/characters/human/teeth/generic_teeth_dmap.dds</Path>
+  <Path>objects/characters/human/teeth/generic_teeth_spec.dds</Path>
+  <Path>objects/natural/bushes/bush_round_leaf/bush_round_leaf.mtl</Path>
+  <Path>objects/natural/bushes/bush_round_leaf/bush_round_leaf_a.cgf</Path>
+  <Path>objects/natural/bushes/bush_round_leaf/bush_round_leaf_a_lod1.cgf</Path>
+  <Path>objects/natural/bushes/bush_round_leaf/bush_round_leaf_ddna.dds</Path>
+  <Path>objects/natural/bushes/bush_round_leaf/bush_round_leaf_diff.dds</Path>
+  <Path>objects/natural/bushes/bush_round_leaf/bush_round_leaf_sss.dds</Path>
+  <Path>objects/natural/bushes/ivy/vegetation_ivy_ddna.dds</Path>
+  <Path>objects/natural/bushes/ivy/vegetation_ivy_diff.dds</Path>
+  <Path>objects/natural/bushes/junglebush/textures/leaves_a_ddna.dds</Path>
+  <Path>objects/natural/bushes/junglebush/textures/leaves_a_diff.dds</Path>
+  <Path>objects/natural/bushes/junglebush/textures/leaves_a_opac.dds</Path>
+  <Path>objects/natural/bushes/roundleafbush/textures/branches.dds</Path>
+  <Path>objects/natural/bushes/roundleafbush/textures/leaves_a_ddna.dds</Path>
+  <Path>objects/natural/bushes/roundleafbush/textures/leaves_a_diff.dds</Path>
+  <Path>objects/natural/bushes/roundleafbush/textures/leaves_a_opac.dds</Path>
+  <Path>objects/natural/ground/bullrush/bullrush.cgf</Path>
+  <Path>objects/natural/ground/bullrush/bullrush.mtl</Path>
+  <Path>objects/natural/ground/bullrush/bullrush_lod1.cgf</Path>
+  <Path>objects/natural/ground/bullrush/textures/bullrush_ddna.dds</Path>
+  <Path>objects/natural/ground/bullrush/textures/bullrush_diff.dds</Path>
   <Path>objects/natural/ground/forest_ground/forest_ground.mtl</Path>
+  <Path>objects/natural/ground/forest_ground/forest_ground_patch_leafs_b.cgf</Path>
   <Path>objects/natural/ground/forest_ground/forest_ground_patch_leafs_big_a.cgf</Path>
   <Path>objects/natural/ground/forest_ground/forest_ground_patch_leafs_big_a_lod1.cgf</Path>
+  <Path>objects/natural/ground/forest_ground/forest_ground_patch_leafs_med_b.cgf</Path>
+  <Path>objects/natural/ground/forest_ground/forest_ground_patch_leafs_med_b_lod1.cgf</Path>
   <Path>objects/natural/ground/forest_ground/textures/forest_ground_diff.dds</Path>
   <Path>objects/natural/ground/forest_ground/textures/forest_rocks_diff.dds</Path>
+  <Path>objects/natural/ground/forestgrass/forest_flower.cgf</Path>
+  <Path>objects/natural/ground/forestgrass/forest_flower_b.mtl</Path>
+  <Path>objects/natural/ground/forestgrass/forest_grass.mtl</Path>
+  <Path>objects/natural/ground/forestgrass/forestflower_a.cgf</Path>
+  <Path>objects/natural/ground/forestgrass/forestflower_b.cgf</Path>
+  <Path>objects/natural/ground/forestgrass/forestgrass_filler_a.cgf</Path>
+  <Path>objects/natural/ground/forestgrass/forestgrass_long_a.cgf</Path>
+  <Path>objects/natural/ground/forestgrass/forestgrass_long_b.cgf</Path>
+  <Path>objects/natural/ground/forestgrass/forestgrass_short_a.cgf</Path>
+  <Path>objects/natural/ground/forestgrass/forestgrass_thick_a.cgf</Path>
+  <Path>objects/natural/ground/forestgrass/forestgrass_thick_b.cgf</Path>
+  <Path>objects/natural/ground/forestgrass/textures/forestgrass_ddna.dds</Path>
+  <Path>objects/natural/ground/forestgrass/textures/forestgrass_diff.dds</Path>
+  <Path>objects/natural/ground/forestgrass/textures/hero_flower_ddna.dds</Path>
+  <Path>objects/natural/ground/forestgrass/textures/hero_flower_diff.dds</Path>
+  <Path>objects/natural/ground/grass/grass.mtl</Path>
+  <Path>objects/natural/ground/grass/grass_big_dense.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_big_dense_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_big_normal.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_big_normal_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_big_sparse.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_big_sparse_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_medium_dense.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_medium_dense_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_medium_normal.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_medium_normal_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_medium_sparse.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_medium_sparse_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_small_dense.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_small_dense_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_small_normal.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_small_normal_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_small_sparse.cgf</Path>
+  <Path>objects/natural/ground/grass/grass_small_sparse_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/nice_grass.mtl</Path>
+  <Path>objects/natural/ground/grass/nicegrass_dry_s.cgf</Path>
+  <Path>objects/natural/ground/grass/nicegrass_drygreen_s.cgf</Path>
+  <Path>objects/natural/ground/grass/nicegrass_drygreen_s_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/tall_grass.cgf</Path>
+  <Path>objects/natural/ground/grass/tall_grass.mtl</Path>
+  <Path>objects/natural/ground/grass/tall_grass_a.cgf</Path>
+  <Path>objects/natural/ground/grass/tall_grass_b.cgf</Path>
+  <Path>objects/natural/ground/grass/tall_grass_c.cgf</Path>
+  <Path>objects/natural/ground/grass/tall_grass_d.cgf</Path>
+  <Path>objects/natural/ground/grass/tall_grass_lod1.cgf</Path>
+  <Path>objects/natural/ground/grass/textures/grass_mix_diff.dds</Path>
+  <Path>objects/natural/ground/grass/textures/tall_grass_ddna.dds</Path>
+  <Path>objects/natural/ground/grass/textures/tall_grass_diff.dds</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves.mtl</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_3m_curb.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_3m_curb_lod1.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_5m_curb.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_5m_curb_lod1.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_branches_a.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_branches_b.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_branches_c.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_cluster.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_pile_medium.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_pile_medium_lod1.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_pile_small.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves_pile_small_lod1.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/textures/ground_leaves_ddna.dds</Path>
+  <Path>objects/natural/ground/ground_leaves/textures/ground_leaves_diff.dds</Path>
+  <Path>objects/natural/ground/mushrooms/mushroom_c.cgf</Path>
+  <Path>objects/natural/ground/mushrooms/mushroom_d.cgf</Path>
+  <Path>objects/natural/ground/mushrooms/mushroom_group_a.cgf</Path>
+  <Path>objects/natural/ground/mushrooms/mushrooms_grey.mtl</Path>
+  <Path>objects/natural/ground/mushrooms/textures/mushrooms_ddna.dds</Path>
+  <Path>objects/natural/ground/mushrooms/textures/mushrooms_diff.dds</Path>
   <Path>objects/natural/rocks/beach_rocks/beach_rock_big_a_con.cgf</Path>
   <Path>objects/natural/rocks/beach_rocks/beach_rock_big_a_con_lod1.cgf</Path>
   <Path>objects/natural/rocks/beach_rocks/beach_rock_big_a_con_lod2.cgf</Path>
@@ -93,10 +270,6 @@
   <Path>objects/natural/rocks/beach_rocks/beach_rock_med_d_con_lod2.cgf</Path>
   <Path>objects/natural/rocks/beach_rocks/beach_rock_med_e_con.cgf</Path>
   <Path>objects/natural/rocks/beach_rocks/beach_rock_med_e_con_lod1.cgf</Path>
-  <Path>objects/natural/rocks/broken_floor/textures/concrete_rebar_mask.dds</Path>
-  <Path>objects/natural/rocks/canyon_basewall/textures/moss_canyonrock.dds</Path>
-  <Path>objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_ddna.dds</Path>
-  <Path>objects/natural/rocks/canyon_basewall/textures/moss_canyonrock_gloss.dds</Path>
   <Path>objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01.dds</Path>
   <Path>objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01_ddna.dds</Path>
   <Path>objects/natural/rocks/canyon_basewall/textures/rock_base_tile_01_mask.dds</Path>
@@ -110,23 +283,12 @@
   <Path>objects/natural/rocks/canyon_rocks/canyon_path_diff.dds</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_path_rock_ddna.dds</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_path_rock_diff.dds</Path>
+  <Path>objects/natural/rocks/canyon_rocks/canyon_river_rock_ddna.dds</Path>
+  <Path>objects/natural/rocks/canyon_rocks/canyon_river_rock_diff.dds</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_a_detail.dds</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_b_detail.dds</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_b_wet.cgf</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_b_wet_lod1.cgf</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_b_wet_lod2.cgf</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_b_wet_lod3.cgf</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_b_wet_lod4.cgf</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_c.cgf</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_c_detail.dds</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_c_lod1.cgf</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_c_lod2.cgf</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_d_detail.dds</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_d_moss.cgf</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_d_moss_lod1.cgf</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_d_moss_lod2.cgf</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_d_moss_lod3.cgf</Path>
-  <Path>objects/natural/rocks/canyon_rocks/canyon_rock_d_moss_lod4.cgf</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_ddna.dds</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_diff.dds</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_e_wall_detail.dds</Path>
@@ -137,60 +299,15 @@
   <Path>objects/natural/rocks/canyon_rocks/canyon_wall_up_ddna.dds</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_wall_up_detail.dds</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_wall_up_diff.dds</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_b.mtl</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_b_small.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_b_small_lod1.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_mine_exit.mtl</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_mine_exit_a.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_mine_exit_a_lod1.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_mine_exit_a_lod2.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_mine_exit_b.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_mine_exit_b_lod1.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_mine_exit_b_lod2.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_mine_exit_c.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_mine_exit_c_lod1.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_mine_exit_c_lod2.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_neutral_big_a_con.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_neutral_big_a_con_lod1.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_neutral_big_a_con_lod2.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_neutral_big_b_con.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_neutral_big_b_con_lod1.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_neutral_big_b_con_lod2.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_neutral_con.mtl</Path>
-  <Path>objects/natural/rocks/cliff_rocks/cliff_rock_neutral_med_a_con.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_cave_a.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_cave_a_lod1.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_cave_a_lod2.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_cave_a_lod3.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_cave_b.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_cave_b_lod1.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_cave_b_lod2.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_cave_b_lod3.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_plane_cave_a.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_plane_cave_b.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/rock_plane_cave_c.cgf</Path>
-  <Path>objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_ddna.dds</Path>
-  <Path>objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_diff.dds</Path>
-  <Path>objects/natural/rocks/cliff_rocks/textures/cliff_rock_b_ddna.dds</Path>
-  <Path>objects/natural/rocks/cliff_rocks/textures/cliff_rock_b_diff.dds</Path>
+  <Path>objects/natural/rocks/canyon_rocks/canyon_wall_up_river_wet_ddna.dds</Path>
+  <Path>objects/natural/rocks/canyon_rocks/canyon_wall_up_river_wet_diff.dds</Path>
   <Path>objects/natural/rocks/cliff_rocks/textures/cliff_rock_d_ddna.dds</Path>
   <Path>objects/natural/rocks/cliff_rocks/textures/cliff_rock_d_diff.dds</Path>
-  <Path>objects/natural/rocks/cliff_rocks/textures/cliffrock_border.dds</Path>
-  <Path>objects/natural/rocks/erosion/erosion.mtl</Path>
-  <Path>objects/natural/rocks/erosion/landslide_a.cgf</Path>
-  <Path>objects/natural/rocks/erosion/landslide_a_lod1.cgf</Path>
   <Path>objects/natural/rocks/erosion/landslide_rock_small_a.cgf</Path>
   <Path>objects/natural/rocks/erosion/precipice.mtl</Path>
   <Path>objects/natural/rocks/erosion/rock_particle_high.cgf</Path>
-  <Path>objects/natural/rocks/erosion/textures/mud_ddna.dds</Path>
-  <Path>objects/natural/rocks/erosion/textures/mud_displ.dds</Path>
   <Path>objects/natural/rocks/erosion/textures/rock_ddna.dds</Path>
   <Path>objects/natural/rocks/erosion/textures/rock_diff.dds</Path>
-  <Path>objects/natural/rocks/erosion/textures/roots_ddna.dds</Path>
-  <Path>objects/natural/rocks/erosion/textures/roots_diff.dds</Path>
-  <Path>objects/natural/rocks/erosion/textures/soil_brown_diff.dds</Path>
-  <Path>objects/natural/rocks/erosion/textures/soil_ddna.dds</Path>
-  <Path>objects/natural/rocks/erosion/textures/soil_diff.dds</Path>
   <Path>objects/natural/rocks/forest_monoliths/forest_monolith_new_diff.dds</Path>
   <Path>objects/natural/rocks/forest_rocks/textures/moss_ddna.dds</Path>
   <Path>objects/natural/rocks/forest_rocks/textures/moss_diff.dds</Path>
@@ -203,39 +320,8 @@
   <Path>objects/natural/rocks/granite_rocks/granite_rocks.mtl</Path>
   <Path>objects/natural/rocks/granite_rocks/textures/granite_rocks_ddna.dds</Path>
   <Path>objects/natural/rocks/granite_rocks/textures/granite_rocks_diff.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_01.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_01.mtl</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_01_lod1.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_01_lod2.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_02.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_02_lod1.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_02_lod2.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_03.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_03_lod1.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_03_lod2.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_03_lod3.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_04.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_04_breakable.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_04_breakable_lod1.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_04_breakable_lod2.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_04_lod1.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_04_lod2.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_05.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_05_lod1.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_01_detail_displ.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_03_detail_displ.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_04_detail_displ.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_05_detail_displ.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_detail_01.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_detail_02.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_detail_02_displ.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_detail_03.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_detail_04.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_detail_05.dds</Path>
   <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_tile.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_tile_ddna.dds</Path>
   <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_tile_mask.dds</Path>
-  <Path>objects/natural/rocks/ground_rocks/textures/ground_rock_tile_spec.dds</Path>
   <Path>objects/natural/rocks/river_rocks/dry_pattern_a.cgf</Path>
   <Path>objects/natural/rocks/river_rocks/dry_pattern_a_lod1.cgf</Path>
   <Path>objects/natural/rocks/river_rocks/dry_pattern_b.cgf</Path>
@@ -256,48 +342,466 @@
   <Path>objects/natural/rocks/street_rocks/street_rock_02_lod1.cgf</Path>
   <Path>objects/natural/rocks/street_rocks/street_rock_02_lod2.cgf</Path>
   <Path>objects/natural/rocks/street_rocks/street_rock_02_lod3.cgf</Path>
-  <Path>objects/natural/rocks/street_rocks/street_rock_pipes.mtl</Path>
-  <Path>objects/natural/rocks/street_rocks/street_rock_pipes_04.cgf</Path>
-  <Path>objects/natural/rocks/street_rocks/street_rock_pipes_05.cgf</Path>
   <Path>objects/natural/rocks/street_rocks/textures/asphalt_edge_decal.dds</Path>
   <Path>objects/natural/rocks/street_rocks/textures/asphalt_edge_decal_ddn.dds</Path>
-  <Path>objects/natural/rocks/street_rocks/textures/metal_beam_pipe_ddna.dds</Path>
-  <Path>objects/natural/rocks/street_rocks/textures/metal_beam_pipe_diff.dds</Path>
-  <Path>objects/natural/rocks/street_rocks/textures/plastic_pipes.dds</Path>
-  <Path>objects/natural/rocks/street_rocks/textures/plastic_pipes_ddna.dds</Path>
   <Path>objects/natural/rocks/street_rocks/textures/street_rock_01_detail.dds</Path>
   <Path>objects/natural/rocks/street_rocks/textures/street_rock_asphalt.dds</Path>
   <Path>objects/natural/rocks/street_rocks/textures/street_rock_asphalt_ddna.dds</Path>
   <Path>objects/natural/rocks/street_rocks/textures/street_rock_soil.dds</Path>
   <Path>objects/natural/rocks/street_rocks/textures/street_rock_soil_ddna.dds</Path>
-  <Path>objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddna.dds</Path>
-  <Path>objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.dds</Path>
+  <Path>objects/natural/trees/aspen/aspen.mtl</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_a.cgf</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_a_lod1.cgf</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_a_lod2.cgf</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_b.cgf</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_b_lod1.cgf</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_e.cgf</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_e_lod1.cgf</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_e_lod2.cgf</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_f.cgf</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_f_lod1.cgf</Path>
+  <Path>objects/natural/trees/aspen/b_aspen_f_lod2.cgf</Path>
+  <Path>objects/natural/trees/aspen/c_aspen_a.cgf</Path>
+  <Path>objects/natural/trees/aspen/c_aspen_a_lod1.cgf</Path>
+  <Path>objects/natural/trees/aspen/c_aspen_a_lod2.cgf</Path>
+  <Path>objects/natural/trees/aspen/c_aspen_b.cgf</Path>
+  <Path>objects/natural/trees/aspen/c_aspen_b_lod1.cgf</Path>
+  <Path>objects/natural/trees/aspen/c_aspen_b_lod2.cgf</Path>
+  <Path>objects/natural/trees/aspen/c_aspen_c.cgf</Path>
+  <Path>objects/natural/trees/aspen/c_aspen_c_lod1.cgf</Path>
+  <Path>objects/natural/trees/aspen/c_aspen_d.cgf</Path>
+  <Path>objects/natural/trees/aspen/c_aspen_d_lod1.cgf</Path>
+  <Path>objects/natural/trees/aspen/f_aspen_a.cgf</Path>
+  <Path>objects/natural/trees/aspen/f_aspen_b.cgf</Path>
+  <Path>objects/natural/trees/aspen/f_aspen_c.cgf</Path>
+  <Path>objects/natural/trees/aspen/f_aspen_d.cgf</Path>
+  <Path>objects/natural/trees/aspen/f_aspen_e.cgf</Path>
+  <Path>objects/natural/trees/aspen/textures/aspen_leaf_ddna.dds</Path>
+  <Path>objects/natural/trees/aspen/textures/aspen_leaf_diff.dds</Path>
+  <Path>objects/natural/trees/aspen/textures/aspen_trunk_ddna.dds</Path>
+  <Path>objects/natural/trees/aspen/textures/aspen_trunk_dead_ddna.dds</Path>
+  <Path>objects/natural/trees/aspen/textures/aspen_trunk_dead_diff.dds</Path>
+  <Path>objects/natural/trees/aspen/textures/aspen_trunk_diff.dds</Path>
+  <Path>objects/natural/trees/meadow/a_oak_tree_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/a_oak_tree_a_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/a_oak_tree_a_lod2.cgf</Path>
+  <Path>objects/natural/trees/meadow/a_oak_tree_b_dead.cgf</Path>
+  <Path>objects/natural/trees/meadow/a_oak_tree_b_dead_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/a_oak_tree_c_single.cgf</Path>
+  <Path>objects/natural/trees/meadow/a_oak_tree_c_single_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/a_oak_tree_c_single_lod2.cgf</Path>
+  <Path>objects/natural/trees/meadow/b_oak_tree_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/b_oak_tree_a_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/b_oak_tree_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/b_oak_tree_b_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/b_oak_tree_b_lod2.cgf</Path>
+  <Path>objects/natural/trees/meadow/c_oak_tree_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/c_oak_tree_a_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/c_oak_tree_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/c_oak_tree_b_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/e_oak_bush_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/e_oak_bush_a_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/e_oak_bush_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/e_oak_bush_b_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/e_oak_bush_half_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/e_oak_bush_half_a_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/e_oak_bush_half_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/e_oak_bush_half_b_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/e_oak_bush_half_c.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_a_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_b_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_c.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_c_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_d.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_d_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_e.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_f.cgf</Path>
+  <Path>objects/natural/trees/meadow/f_meadow_grass_f_lod1.cgf</Path>
+  <Path>objects/natural/trees/meadow/g_marsh_flower_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/g_marsh_flower_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/g_marsh_flower_c.cgf</Path>
+  <Path>objects/natural/trees/meadow/g_marsh_straw_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/g_marsh_straw_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/g_marsh_straw_c.cgf</Path>
+  <Path>objects/natural/trees/meadow/g_oak_branches_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/g_oak_branches_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/g_oak_branches_c.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_corner_grass_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_corner_grass_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_corner_grass_c.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_corner_grass_d.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_corner_grass_e.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_floor_grass_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_floor_grass_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_floor_grass_c.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_floor_grass_d.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_floor_grass_e.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_ground_grass_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_ground_grass_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_ground_grass_c.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_ground_grass_d.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_ground_grass_e.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_roof_grass_a.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_roof_grass_b.cgf</Path>
+  <Path>objects/natural/trees/meadow/h_roof_grass_c.cgf</Path>
+  <Path>objects/natural/trees/meadow/marsh_plants.mtl</Path>
+  <Path>objects/natural/trees/meadow/meadow_grass.mtl</Path>
+  <Path>objects/natural/trees/meadow/meadow_grass_architecture.mtl</Path>
+  <Path>objects/natural/trees/meadow/meadow_grass_corner.mtl</Path>
+  <Path>objects/natural/trees/meadow/oak.mtl</Path>
+  <Path>objects/natural/trees/meadow/textures/marsh_plants_ddn.dds</Path>
+  <Path>objects/natural/trees/meadow/textures/marsh_plants_diff.dds</Path>
+  <Path>objects/natural/trees/meadow/textures/meadow_grass_diff.dds</Path>
+  <Path>objects/natural/trees/meadow/textures/oak_leaf_diff.dds</Path>
+  <Path>objects/natural/trees/meadow/textures/oak_trunk_ddn.dds</Path>
+  <Path>objects/natural/trees/meadow/textures/oak_trunk_ddna.dds</Path>
+  <Path>objects/natural/trees/meadow/textures/oak_trunk_diff.dds</Path>
+  <Path>objects/natural/trees/pine/pine.cgf</Path>
+  <Path>objects/natural/trees/pine/pine.mtl</Path>
+  <Path>objects/natural/trees/pine/pine_holiday.mtl</Path>
+  <Path>objects/natural/trees/pine/pine_large.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_large_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_large_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_large_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_large_snowy.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_large_snowy_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_large_snowy_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_large_snowy_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_lights.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_lights_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_lights_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_lights_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_small.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_small_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_small_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_small_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_small_snowy.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_small_snowy_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_small_snowy_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_small_snowy_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_snow.mtl</Path>
+  <Path>objects/natural/trees/pine/pine_snow_holiday.mtl</Path>
+  <Path>objects/natural/trees/pine/pine_snowy.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_snowy_lights.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_snowy_lights_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_snowy_lights_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_snowy_lights_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_snowy_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_snowy_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_snowy_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xlarge.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xlarge_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xlarge_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xlarge_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xlarge_snowy.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xlarge_snowy_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xlarge_snowy_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xlarge_snowy_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xsmall.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xsmall_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xsmall_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xsmall_lod3.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xsmall_snowy.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xsmall_snowy_lod1.cgf</Path>
+  <Path>objects/natural/trees/pine/pine_xsmall_snowy_lod2.cgf</Path>
+  <Path>objects/natural/trees/pine/textures/lights_ddn.dds</Path>
+  <Path>objects/natural/trees/pine/textures/lights_diff.dds</Path>
+  <Path>objects/natural/trees/pine/textures/lights_glow.dds</Path>
+  <Path>objects/natural/trees/pine/textures/lights_spec.dds</Path>
+  <Path>objects/natural/trees/pine/textures/lod.dds</Path>
+  <Path>objects/natural/trees/pine/textures/lod_snow.dds</Path>
+  <Path>objects/natural/trees/pine/textures/pine_leaves_ddna.dds</Path>
+  <Path>objects/natural/trees/pine/textures/pine_leaves_diff.dds</Path>
+  <Path>objects/natural/trees/pine/textures/pine_leaves_sss.dds</Path>
+  <Path>objects/natural/trees/pine/textures/pine_trunk.dds</Path>
+  <Path>objects/natural/trees/pine/textures/pine_trunk_ddna.dds</Path>
+  <Path>objects/natural/trees/pine/textures/snow_ddna.dds</Path>
+  <Path>objects/natural/trees/pine/textures/snow_diff.dds</Path>
+  <Path>objects/natural/trees/river_tree/river_tree.mtl</Path>
+  <Path>objects/natural/trees/river_tree/river_tree_a.cgf</Path>
+  <Path>objects/natural/trees/river_tree/river_tree_a_lod1.cgf</Path>
+  <Path>objects/natural/trees/river_tree/river_tree_b.cgf</Path>
+  <Path>objects/natural/trees/river_tree/river_tree_b_lod1.cgf</Path>
+  <Path>objects/natural/trees/river_tree/river_tree_c.cgf</Path>
+  <Path>objects/natural/trees/river_tree/river_tree_c_lod1.cgf</Path>
+  <Path>objects/natural/trees/river_tree/river_tree_d.cgf</Path>
+  <Path>objects/natural/trees/river_tree/river_tree_d_lod1.cgf</Path>
+  <Path>objects/natural/trees/river_tree/river_tree_d_lod2.cgf</Path>
+  <Path>objects/natural/trees/river_tree/textures/branch_a.dds</Path>
   <Path>objects/natural/trees/thin_leave_tree/textures/trunk_pino_ddna.dds</Path>
   <Path>objects/natural/trees/thin_leave_tree/textures/trunk_pino_diff.dds</Path>
+  <Path>objects/natural/trees/twisted_tree/root01.cgf</Path>
+  <Path>objects/natural/trees/twisted_tree/roots.mtl</Path>
+  <Path>objects/natural/trees/twisted_tree/textures/cut_ddna.dds</Path>
+  <Path>objects/natural/trees/twisted_tree/textures/cut_diff.dds</Path>
+  <Path>objects/natural/trees/twisted_tree/textures/trunk_dry_tree_ddna.dds</Path>
+  <Path>objects/natural/trees/twisted_tree/textures/trunk_dry_tree_diff.dds</Path>
+  <Path>objects/natural/trees/twisted_tree/tree02.cgf</Path>
+  <Path>objects/natural/trees/twisted_tree/twisted_tree.mtl</Path>
+  <Path>objects/natural/trees/twisted_tree/twisted_tree_a.cgf</Path>
+  <Path>objects/natural/trees/twisted_tree/twisted_tree_a_lod1.cgf</Path>
+  <Path>objects/natural/trees/twisted_tree/twisted_tree_a_lod2.cgf</Path>
+  <Path>objects/natural/trees/twisted_tree/twisted_tree_b.cgf</Path>
+  <Path>objects/natural/trees/twisted_tree/twisted_tree_b_lod1.cgf</Path>
+  <Path>objects/natural/trees/twisted_tree/twisted_tree_b_lod2.cgf</Path>
+  <Path>objects/natural/woodland/dead_wood_detail.dds</Path>
+  <Path>objects/natural/woodland/decal_moss_a.dds</Path>
   <Path>objects/natural/woodland/moss_blend.dds</Path>
   <Path>objects/natural/woodland/moss_ddna.dds</Path>
   <Path>objects/natural/woodland/moss_diff.dds</Path>
+  <Path>objects/natural/woodland/moss_layer_ddna.dds</Path>
+  <Path>objects/natural/woodland/moss_layer_diff.dds</Path>
+  <Path>objects/natural/woodland/moss_rock_mask.dds</Path>
+  <Path>objects/natural/woodland/na_scots_pine_tree_stripped_ddna.dds</Path>
+  <Path>objects/natural/woodland/na_scots_pine_tree_stripped_diff.dds</Path>
+  <Path>objects/natural/woodland/na_scots_pine_tree_trunk_ddna.dds</Path>
+  <Path>objects/natural/woodland/na_scots_pine_tree_trunk_rotten_diff.dds</Path>
+  <Path>objects/natural/woodland/pine_distance_ddna.dds</Path>
+  <Path>objects/natural/woodland/pine_distance_diff.dds</Path>
+  <Path>objects/natural/woodland/pine_distance_sss.dds</Path>
+  <Path>objects/natural/woodland/pine_forest_distance_a.cgf</Path>
+  <Path>objects/natural/woodland/pine_forest_distance_b.cgf</Path>
+  <Path>objects/natural/woodland/pine_leaf_ddna.dds</Path>
+  <Path>objects/natural/woodland/pine_leaf_diff.dds</Path>
+  <Path>objects/natural/woodland/pine_leaf_sss.dds</Path>
+  <Path>objects/natural/woodland/pine_trunk_blend.dds</Path>
+  <Path>objects/natural/woodland/pine_trunk_ddna.dds</Path>
+  <Path>objects/natural/woodland/pine_trunk_diff.dds</Path>
+  <Path>objects/natural/woodland/pine_trunk_displ.dds</Path>
+  <Path>objects/natural/woodland/river_foam_diff.dds</Path>
   <Path>objects/natural/woodland/river_rock_blend.dds</Path>
   <Path>objects/natural/woodland/rock_clean_ddna.dds</Path>
+  <Path>objects/natural/woodland/rock_forest_group_a.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_a_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_a_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_a_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_a_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_a_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_b.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_b_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_b_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_b_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_b_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_b_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_c.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_c_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_c_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_c_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_c_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_c_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_d.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_d_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_d_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_d_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_d_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_d_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_e.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_e_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_e_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_e_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_e_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_e_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_a.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_a_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_a_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_a_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_a_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_a_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_b.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_b_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_b_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_b_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_b_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_b_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_c.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_c_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_c_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_c_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_c_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_c_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_d.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_d_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_d_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_d_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_d_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_d_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_e.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_e_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_e_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_e_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_e_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_group_no_moss_e_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_a.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_a_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_a_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_a_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_b.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_b_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_b_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_b_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_c.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_c_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_c_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_c_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_d.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_d_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_d_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_forest_small_d_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_a.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_a_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_a_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_a_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_a_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_a_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_b.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_b_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_b_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_b_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_b_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_b_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_c.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_c_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_c_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_c_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_c_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_c_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_d.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_d_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_d_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_d_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_d_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_d_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_e.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_e_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_e_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_e_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_e_lod4.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_group_e_lod5.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_a.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_a_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_a_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_a_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_b.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_b_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_b_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_b_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_c.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_c_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_c_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_c_lod3.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_d.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_d_lod1.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_d_lod2.cgf</Path>
+  <Path>objects/natural/woodland/rock_river_small_d_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_a.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_a_detailed.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_a_detailed_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_a_detailed_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_a_detailed_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_a_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_a_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_a_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_b.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_b_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_b_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_big_b_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_a.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_a_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_a_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_a_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_b.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_b_detailed.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_b_detailed_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_b_detailed_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_b_detailed_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_b_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_b_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_b_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_c.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_c_detailed.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_c_detailed_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_c_detailed_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_c_detailed_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_c_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_c_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_c_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_d.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_d.mtl</Path>
+  <Path>objects/natural/woodland/spruce_border_d_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_d_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_border_d_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_med_a.cgf</Path>
+  <Path>objects/natural/woodland/spruce_med_a_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_med_a_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_med_a_lod3.cgf</Path>
+  <Path>objects/natural/woodland/spruce_med_b.cgf</Path>
+  <Path>objects/natural/woodland/spruce_med_b_lod1.cgf</Path>
+  <Path>objects/natural/woodland/spruce_med_b_lod2.cgf</Path>
+  <Path>objects/natural/woodland/spruce_med_b_lod3.cgf</Path>
+  <Path>objects/natural/woodland/textures/spruce_border_d_lod1_alpha_ddna.dds</Path>
+  <Path>objects/natural/woodland/textures/spruce_border_d_lod1_alpha_diff.dds</Path>
+  <Path>objects/natural/woodland/textures/spruce_border_d_lod2_alpha_ddna.dds</Path>
+  <Path>objects/natural/woodland/textures/spruce_border_d_lod2_alpha_diff.dds</Path>
+  <Path>objects/natural/woodland/textures/spruce_border_d_lod3_alpha_ddna.dds</Path>
+  <Path>objects/natural/woodland/textures/spruce_border_d_lod3_alpha_diff.dds</Path>
+  <Path>objects/natural/woodland/wood_dead_bark_ddna.dds</Path>
+  <Path>objects/natural/woodland/wood_dead_bark_diff.dds</Path>
   <Path>objects/natural/woodland/woodland_canyon.mtl</Path>
+  <Path>objects/natural/woodland/woodland_distance_formation.mtl</Path>
+  <Path>objects/natural/woodland/woodland_distance_formation_a.cgf</Path>
+  <Path>objects/natural/woodland/woodland_distance_formation_a_lod1.cgf</Path>
+  <Path>objects/natural/woodland/woodland_distance_formation_b.cgf</Path>
+  <Path>objects/natural/woodland/woodland_distance_formation_b_lod1.cgf</Path>
+  <Path>objects/natural/woodland/woodland_distance_formation_c.cgf</Path>
+  <Path>objects/natural/woodland/woodland_distance_formation_c_lod1.cgf</Path>
+  <Path>objects/natural/woodland/woodland_forest.mtl</Path>
+  <Path>objects/natural/woodland/woodland_river.mtl</Path>
+  <Path>objects/natural/woodland/woodland_waterfall_forest.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_a.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_a_lod1.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_a_lod2.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_a_lod3.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_b.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_b_lod1.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_b_lod2.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_b_lod3.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_c.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_c_lod1.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_c_lod2.cgf</Path>
+  <Path>objects/natural/woodland/woodland_wood_pile_c_lod3.cgf</Path>
   <Path>objects/props/misc/lamp_post/textures/lamp_post_ddna.dds</Path>
   <Path>objects/props/misc/lamp_post/textures/lamp_post_diff.dds</Path>
   <Path>objects/props/misc/lamp_post/textures/lamp_post_spec.dds</Path>
   <Path>scripts/ai/factions.xml</Path>
-  <Path>textures/decals/vegetation/roots_on_cliff.dds</Path>
-  <Path>textures/decals/vegetation/roots_on_cliff_ddna.dds</Path>
   <Path>textures/detail_bumpmaps/concrete/concrete_1_detail.dds</Path>
+  <Path>textures/detail_bumpmaps/concrete/concrete_3_detail.dds</Path>
   <Path>textures/detail_bumpmaps/concrete/concrete_a_detail.dds</Path>
-  <Path>textures/detail_bumpmaps/metal/metal_bumpy_dmap.dds</Path>
+  <Path>textures/detail_bumpmaps/metal/metal_detail.dds</Path>
+  <Path>textures/detail_bumpmaps/plants/plants_leaf_detail.dds</Path>
+  <Path>textures/detail_bumpmaps/rock/detail_cliff_rock_detail.dds</Path>
   <Path>textures/detail_bumpmaps/rock/rock_1_detail.dds</Path>
   <Path>textures/detail_bumpmaps/rock/stone_dmap.dds</Path>
   <Path>textures/detail_bumpmaps/wood/wood_fine_b90_detail.dds</Path>
+  <Path>textures/detail_bumpmaps/wood/wood_fine_detail.dds</Path>
   <Path>textures/detail_bumpmaps/wood/wood_horizontal_1_detail.dds</Path>
+  <Path>textures/detail_bumpmaps/wood/wood_vertical_1_detail.dds</Path>
+  <Path>textures/generic/blend_masks/brick_blend.dds</Path>
   <Path>textures/generic/blend_masks/dirt_blend.dds</Path>
-  <Path>textures/generic/blend_masks/dirty_blend.dds</Path>
   <Path>textures/generic/blend_masks/rock_a_mask.dds</Path>
+  <Path>textures/generic/blend_masks/wood_fine_a_mask.dds</Path>
+  <Path>textures/generic/moss/moss_green_a_ddna.dds</Path>
   <Path>textures/generic/vegetation/pebbles_leaves_diff.dds</Path>
+  <Path>textures/generic/water/river_foam.dds</Path>
+  <Path>textures/generic/water/river_foam_ddn.dds</Path>
+  <Path>textures/generic/water/river_foam_displ.dds</Path>
+  <Path>textures/generic/water/river_foam_spec.dds</Path>
   <Path>textures/generic/wood/wood_sheets_ddna.dds</Path>
   <Path>textures/generic/wood/wood_sheets_diff.dds</Path>
+  <Path>textures/generic/wood/wood_tile_diff.dds</Path>
  </Dependencies>
 </AssetMetadata>
